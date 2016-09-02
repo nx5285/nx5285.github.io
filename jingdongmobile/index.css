@@ -1,0 +1,440 @@
+body{
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+html{
+	height: 100%;
+	overflow: hidden;
+}
+body{
+	height: 100%;
+	overflow: auto;
+}
+img{
+	width: 100%;
+}
+header{
+	width: 100%;
+	height:1.234375rem;
+	background-color: #cf212d;
+	opacity: 0.7;
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-top: 0.015625rem solid #92272f;
+}
+footer{
+	width:100%;
+	height: 5.0625rem;
+	border-top: 0.015625rem solid #bfbfbf;
+}
+section{
+	width: 640px;
+	margin-top: 1.25rem;
+}
+.btn_jd{
+	width: 2.375rem;
+	height: 1.234375rem;
+	display: block;
+	float: left;
+}
+.search{
+	width: 6.09375rem;
+	height: 1.234375rem;
+	background: rgba(207,33,45,0.4);
+	float: left;
+	font-size:0.375rem;
+	position: relative;
+}
+.input{
+	width: 100%;
+	height: 0.9375rem;
+	background: #fff;
+	position: absolute;
+	top: 0.15625rem;
+	border-radius:0.46875rem;
+}
+.input-text{
+	position: absolute;
+	left:0.25rem;
+	top:0.34375rem;
+	color: #9e9e9e;
+}
+.input-text:before{
+	content: "";
+	width: 0.578125rem;
+	height: 0.578125rem;
+	float: left;
+	margin-right: 0.28125rem;
+	background: url(img/ico.jpg) no-repeat;
+	background-size:100% ;
+	
+}
+.login{
+	width:1.53125rem;
+	height: 1.234375rem;
+	float: left;
+}
+.ad{
+	width: 10rem;
+	height: 3.625rem;
+	display: block;
+}
+.choose_btn{
+	width: 10rem;
+	height: 4.640625rem;
+}
+.btn_1{
+	width:2.5rem;
+	height: 2.15625rem;
+	float: left;
+}
+.ch-pic{
+	width:2.5rem;
+	height: 1.75rem;
+	display: block;
+}
+.ch-chi{
+	width: 2.5rem;
+	height: 0.40625rem;
+	display: block;
+	font-size: 0.359375rem;
+	line-height: 0.40625rem;
+	text-align: center;
+	font-family: "微软雅黑";
+	color: #767676;
+}
+.btn_2{
+	width:2.5rem;
+	height: 2.15625rem;
+	float: left;
+}
+.int{
+	width: 10rem;
+	height: 0.265625rem;
+	background: url(img/bg.jpg) repeat-x;
+}
+.miao{
+	width: 10rem;
+	height:0.984375rem;
+}
+.first{
+	width: 10rem;
+	height: 3.71875rem;
+	border-bottom:  0.015625rem solid #F0F0F0;
+}
+.fpic{
+	width:2.828125rem;
+	height: 3.71875rem;
+	float: left;
+}
+.fpic2{
+	width:1.5rem;
+	height: 3.71875rem;
+	float: left;
+}
+.second{
+	width: 10rem;
+	height: 4.046875rem;
+	border-bottom: 0.015625rem solid #f7f7f7;
+}
+.spic{
+	width:3.3125rem;
+	height:4.046875rem;
+	float: left;
+	border-right:0.015625rem solid #f7f7f7;
+}
+.spic2{
+	width:3.3125rem;
+	height:4.046875rem;
+	float: left;
+}
+.third{
+	width: 10rem;
+	height:5.046875rem;
+	border-bottom: 0.015625rem solid #f7f7f7;
+}
+.tpic{
+	width: 5rem;
+	height: 2.515625rem;
+	float: left;
+	border-right: 0.015625rem solid #f7f7f7;
+	border-bottom: 0.015625rem solid #f7f7f7;
+}
+.tpic2{
+	width: 4.984375rem;
+	height: 2.515625rem;
+	float: left;
+	border-bottom: 0.015625rem solid #f7f7f7;
+}
+.tpic3{
+	width: 5rem;
+	height: 2.515625rem;
+	float: left;
+	border-right: 0.015625rem solid #f7f7f7;
+}
+.tpic4{
+	width: 4.984375rem;
+	height: 2.515625rem;
+	float: left;
+}
+.ad2{
+	width: 10rem;
+	height: 2.90625rem;
+	display: block;
+}
+.market{
+	width: 10rem;
+	height:1.046875rem;
+	display: block;
+	border-bottom: 0.015625rem solid #f7f7f7;
+}
+.type{
+	width: 10rem;
+	height:7.140625rem;
+	border-bottom: 0.015625rem solid #f7f7f7;
+}
+.eat{
+	width:4.984375rem;
+	height:4.609375rem;
+	float: left;
+	border-right: 0.015625rem solid #f7f7f7;
+}
+.other{
+	width:4.984375rem;
+	height:2.296875rem;
+	float: left;
+	border-bottom: 0.015625rem solid #f7f7f7;
+}
+.other2{
+	width:5rem;
+	height:2.515625rem;
+	float: left;
+	border-right: 0.015625rem solid #f7f7f7;
+	border-bottom: 0.015625rem solid #f7f7f7;
+}
+.other3{
+	width:4.984375rem;
+	height:2.515625rem;
+	float: left;
+	border-bottom: 0.015625rem solid #f7f7f7;
+}
+.ad3{
+	width: 10rem;
+	height:2.890625rem;
+	display: block;
+}
+.allsubject{
+	width: 10rem;
+	height:1.046875rem;
+	display: block;
+	border-bottom: 0.015625rem solid #f7f7f7;
+}
+.subjects{
+	width: 10rem;
+	height:5.734375rem;
+}
+.subject1{
+	width:5rem;
+	height:5.71875rem;
+	float: left;
+	border-right: 0.015625rem solid #f7f7f7;
+	border-bottom: 0.015625rem solid #f7f7f7;
+}
+.subject2{
+	width:4.984375rem;
+	height:5.71875rem;
+	float: left;
+	border-bottom: 0.015625rem solid #f7f7f7;
+}
+.ss{
+	width:4.984375rem;
+	height:2.859375rem;
+	border-bottom: 0.015625rem solid #f7f7f7;
+}
+.ss2{
+	width:2.484375rem;
+	height:2.859375rem;
+	float: left;
+	border-right: 0.015625rem solid #f7f7f7;
+	border-bottom: 0.015625rem solid #f7f7f7;
+}
+.ss3{
+	width:2.484375rem;
+	height:2.859375rem;
+	float: left;
+	border-bottom: 0.015625rem solid #f7f7f7;
+}
+.stype1{
+	width: 10rem;
+	height:2.859375rem;
+	border-bottom: 0.015625rem solid #f7f7f7;
+}
+.stype2{
+	width: 10rem;
+	height:2.859375rem;
+}
+.ftype{
+	width:2.484375rem;
+	height: 2.859375rem;
+	float: left;
+	border-right: 0.015625rem solid #f7f7f7;
+	border-bottom: 0.015625rem solid #f7f7f7;
+}
+.ftype2{
+	width:2.484375rem;
+	height: 2.859375rem;
+	float: left;
+	border-bottom: 0.015625rem solid #f7f7f7;
+}
+.ad4{
+	width: 10rem;
+	height: 2.75rem;
+	display: block;
+}
+.pptj{
+	width: 10rem;
+	height: 1.0625rem;
+	display: block;
+}
+.womens{
+	width: 10rem;
+	height:5.25rem;
+}
+.women{
+	width:3.703125rem;
+	height:5.1875rem;
+	margin-left:0.25rem;
+	float: left;
+	border: 0.015625rem solid #f7f7f7;
+}
+.w1{
+	width:2.828125rem;
+	height:5.1875rem;
+	float: left;
+	border: 0.015625rem solid #f7f7f7;
+	border-left: none;
+}
+.ad5{
+	width: 10rem;
+	height: 3.96875rem;
+	display: block;
+}
+.think{
+	width: 10rem;
+	height: 1.09375rem;
+}
+.think1{
+	width: 10rem;
+	height: 6.796875rem;
+}
+.th1{
+	width: 5rem;
+	height: 6.796875rem;
+	float: left;
+}
+.th-pic{
+	width: 5rem;  
+	height: 4.671875rem;
+	display: block;
+}
+.th-chi{
+	width: 4.34375rem;
+	height: 1.109375rem;
+	border-bottom: 2px solid #d9d9d9;
+	margin-left:0.34375rem;
+	display: block;
+	line-height: 0.4375rem;
+	margin-top: 0.140625rem;
+	font-size: 0.375rem;
+	font-family: "微软雅黑";
+}
+.th-money{
+	width:2.65625rem;
+	height: 0.6875rem;
+	display: block;
+	float: left;
+	margin-left:0.34375rem;
+	font-size:0.46875rem;
+	color: #e74445;
+	font-family: arial;
+	margin-top: 0.15625rem;
+}
+.th-find{
+	width: 1.5rem;
+	height: 0.5rem;
+	border:0.03125rem solid #979797;
+	display: block;
+	float: right;
+	margin-right: 0.34375rem;
+	font-size:0.359375rem;
+	color:  #949494;
+	text-align: center;
+	line-height: 0.5rem;
+	margin-top: 0.125rem;
+	border-radius: 0.09375rem;
+}
+.think2{
+	width: 10rem;
+	height: 7.34375rem;
+}
+.th2{
+	width: 5rem;
+	height: 7.34375rem;
+	float: left;
+}
+.th2-pic{
+	width: 5rem;  
+	height: 5.15625rem;
+	display: block;
+}
+.think3{
+	width: 10rem;
+	height: 7.5625rem;
+}
+.th3{
+	width: 5rem;
+	height: 7.5625rem;
+	float: left;
+}
+.th3-pic{
+	width: 5rem;  
+	height: 5.15625rem;
+	display: block;
+}
+.foot1{
+	width: 10rem;
+	height: 1.578125rem;
+	border-bottom: 0.015625rem solid #bfbfbf;
+}
+.fo1{
+	width:2.71875rem;
+	height: 1.59375rem;
+	float: left;
+}
+.fo2{
+	width:2.28125rem;
+	height: 1.59375rem;
+	float: left;
+}
+.fo3{
+	width:2.28125rem;
+	height: 1.59375rem;
+	float: left;
+}
+.fo4{
+	width:2.71875rem;
+	height: 1.59375rem;
+	float: left;
+}
+.ct{
+	width: 10rem;
+	height: 2.171875rem;
+	border-bottom: 0.015625rem solid #bfbfbf;
+}
+.banquan{
+	width: 10rem;
+	height: 1.28125rem;
+}
