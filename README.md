@@ -3,3 +3,4 @@
 <a href="https://nx5285.github.io/jingdongPC/1index/jingdong.html">PC:这个项目是京东PC端静态页面首页模拟</a><br>
 <a href="https://nx5285.github.io/jingdongPC/2searchlist/searchlist.html">PC:这个项目是京东PC端静态页面搜索页模拟</a><br>
 <a href="https://nx5285.github.io/jingdongPC/3detail/detail.html">PC:这个项目是京东PC端静态页面宝贝详情页模拟</a><br>
+<a href="https://nx5285.github.io/EliminateGame/EliminateGame.html">PC:这个项目是一个小游戏的demo《小游戏：消除表情》的动态页面</a><br>
