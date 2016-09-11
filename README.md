@@ -1,6 +1,9 @@
 # nx5285.github.io
 <a href="https://nx5285.github.io/alitrip-mobile/index.html">mobile:这个项目是阿里旅行移动端静态页面模拟</a><br>
 <a href="https://nx5285.github.io/jingdongmobile/index.html">mobile:这个项目是京东移动端静态页面模拟</a><br>
+<a href="https://nx5285.github.io/alitrip-PC/html/index.html">PC:这个项目是阿里去啊PC端静态页面首页模拟</a><br>
+<a href="https://nx5285.github.io/alitrip-PC/html/flight.html">PC:这个项目是阿里去啊PC端静态页面机票预订页模拟</a><br>
+<a href="https://nx5285.github.io/alitrip-PC/html/hotel.html">PC:这个项目是阿里去啊PC端静态页面酒店预订页模拟</a><br>
 <a href="https://nx5285.github.io/jingdongPC/1index/jingdong.html">PC:这个项目是京东PC端静态页面首页模拟</a><br>
 <a href="https://nx5285.github.io/jingdongPC/2searchlist/searchlist.html">PC:这个项目是京东PC端静态页面搜索页模拟</a><br>
 <a href="https://nx5285.github.io/jingdongPC/3detail/detail.html">PC:这个项目是京东PC端静态页面宝贝详情页模拟</a><br>
