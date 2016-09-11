@@ -26,5 +26,7 @@
 <br>
 <a href="https://nx5285.github.io/UEhtml-Responsive/UEhtml.html">PC:这个项目是UEhtml静态页面响应式模拟</a><br>
 <br>
-<a href="https://nx5285.github.io/163email-logopage/html/163page.html">PC:这个项目是网易163邮箱登的静态页面模拟</a><br>
+<a href="https://nx5285.github.io/163email-logopage/html/163page.html">PC:这个项目是网易163邮箱登录的静态页面模拟</a><br>
+<br>
+<a href="https://nx5285.github.io/qqmusic-homepage/html/QQmusic.html">PC:这个项目是QQ音乐的静态页面模拟</a><br>
 <br>
