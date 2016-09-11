@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>招贤纳士-社会招聘</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script src="js/data.js"></script>
+<!--
+	1、每次进入页面时，要先获取url参数。根据参数决定是社招还是校招。根据hash决定当前第几页
+	2、点击招聘类型时，需要通过location设置url的对应的参数以及hash
+	3、点击翻页按钮时，需要修改对应的hash值，配合翻页。
+-->
+<script>
+	window.onload=function(){
+		eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('k(r 7=h.o("17")[0],D=7.o("G"),w=h.o("w")[0],I=h.X("15")[0].o("p")[0],6=I.o("4"),v=h.X("v")[0],K=h.Y(".K"),A=h.Y(".A"),B=3.f.13.F(1),11=B.u("="),5=3.f.5,L=["16","19"],9=1m,j="",C=0,n=2,i=0;i<8.7.g;i++)j+=\'<G><a x="7.J?s=\'+8.7[i].W+\'">\'+8.7[i].y+"</a></G>";7.M=j;O(B)k(i=0;i<8.7.g;i++)8.7[i].W===11[1]&&(D[i].q="t",9=8[L[i]]);Q D[0].q="t",9=8[L[0]];w.1g=9.w;j="";C=1f.1e(9.y.g/n);k(i=0;i<C;i++)j+=\'<4><a x="1a:;">\'+(i+1)+"</a></4>";I.M=j;6[0].q="t";k(i=0;i<6.g;i++)6[i].V=i,6[i].z=m(){3.f.5="#p="+(1h.V+1)};K.z=m(){r a=Z(3.f.5.u("=")[1]);a--;1>a||(3.f.5="#p="+a)};A.z=m(){r a=Z(3.f.5.u("=")[1]);a++;a>6.g||(3.f.5="#p="+a)};3.10=m(){k(r a=3.f.5.F(1).u("=")[1]-1,c=0;c<6.g;c++)6[c].q="";6[a].q="t";a*=2;E(a,a+n)};O(5)3.10();Q E(0,2);m E(a,c){k(r d=9.y.14(a,c),e="",b=0;b<d.g;b++)e+=\'<p H="18"><4><a x="N.J?s=\'+9.U+"#n="+(a+b)+\'">\\1b \\1c\\1d\\T\\S\\R\'+d[b].12+"</a></4><4>\\T\\S\\1i\\1j\\R"+d[b].1k+\'\\1l</4><4 H="P">\'+8.P(d[b].1n,1)+\'</4></p><p H="1o">\'+d[b].v[0].l.1p("").F(0,1q)+\'...[<a x="N.J?s=\'+9.U+"#n="+(a+b)+\'">\\1r\\1s\\1t\\1u</a>]</p>\';v.M=e};',62,93,'|||window|span|hash|spans|list|aData|data||||||location|length|document||str|for||function|page|getElementsByTagName||className|var||focus|split|info|img|href|text|onclick|next|sch|pageLen|lis|fn|substring|li|class|pages_p|html|prev|arr|innerHTML|content|if|date|else|uff1a|u6c42|u9700|name|index|lx|getElementsByClassName|querySelector|parseFloat|onhashchange|schArr|zw|search|slice|pages|sh|ul|zp|xy|javascript|u2605|u804c|u4f4d|ceil|Math|src|this|u4eba|u6570|rs|u540d|null|sj|yq|join|100|u67e5|u770b|u8be6|u60c5'.split('|'),0,{}))
+}
+</script>
+</head>
+
+<body>
+  <div id="wrap">
+  	<div class="left">
+    	<h2>招贤纳士</h2>
+      <ul>
+      	<!-- <li class="focus"><a href="javascript:;">社会招聘</a></li>
+      	<li><a href="javascript:;">校园招聘</a></li> -->
+      </ul>
+    </div>
+  	<div class="right">
+    	<div class="title">
+      	<img src="img/shzp.gif" />
+      </div>
+      <div class="info">
+
+      	<!-- <p class="zp">
+        	<span><a href="">★ 职位需求：测试工程师【社会招聘】</a></span>
+          <span>需求人数：2名</span>
+         	<span class="date">2013年7月30日</span>
+        </p>
+      	<p class="yq">1.计算机或相关专业本科以上学历；2.从事软件测试工作3年及以上；3.具备良好的沟通能力和快速学习能力；4.精通测试策略和方法、测试用例设计；5.熟悉DB2、AIX等平台的基本操作；6.具备2年以上金...[<a href="">查看详情</a>]
+        </p>
+
+      	<p class="zp">
+        	<span><a href="">★ 职位需求：测试工程师【社会招聘】</a></span>
+          <span>需求人数：12名</span>
+         	<span class="date">2013年7月30日</span>
+        </p>
+      	<p class="yq">1.计算机或相关专业本科以上学历；2.从事软件测试工作3年及以上；3.具备良好的沟通能力和快速学习能力；4.精通测试策略和方法、测试用例设计；5.熟悉DB2、AIX等平台的基本操作；6.具备2年以上金...[<a href="">查看详情</a>]
+        </p>
+
+      	<p class="zp">
+        	<span><a href="">★ 职位需求：测试工程师【社会招聘】</a></span>
+          <span>需求人数：21名</span>
+         	<span class="date">2013年7月30日</span>
+        </p>
+      	<p class="yq">1.计算机或相关专业本科以上学历；2.从事软件测试工作3年及以上；3.具备良好的沟通能力和快速学习能力；4.精通测试策略和方法、测试用例设计；5.熟悉DB2、AIX等平台的基本操作；6.具备2年以上金...[<a href="">查看详情</a>]
+        </p> -->
+
+      </div>
+      <div class="pages">
+        <span class="prev">
+          <a href="javascript:;">
+            <img src="img/pre.gif">
+          </a>
+        </span>
+        <span class="next">
+          <a href="javascript:;">
+            <img src="img/next.gif">
+          </a>
+        </span>
+        <p>
+         <!--  <span class="focus">
+            <a href="javascript:;">1</a>
+          </span>
+          <span>
+            <a href="javascript:;">2</a>
+          </span>
+          <span>
+            <a href="javascript:;">3</a>
+          </span> -->
+        </p>
+        
+      </div>
+      
+    </div>
+    <div class="clear"></div>
+  </div>
+</body>
+</html>
