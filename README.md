@@ -11,6 +11,8 @@
 <br>
 <a href="https://nx5285.github.io/alitrip-PC/html/hotel.html">PC:这个项目是阿里去啊PC端静态页面酒店预订页模拟</a><br>
 <br>
+<a href="https://nx5285.github.io/taobao-PC/index.html">PC:这个项目是淘宝PC端静态页面首页模拟</a><br>
+<br>
 <a href="https://nx5285.github.io/jingdongPC/1index/jingdong.html">PC:这个项目是京东PC端静态页面首页模拟</a><br>
 <br>
 <a href="https://nx5285.github.io/jingdongPC/2searchlist/searchlist.html">PC:这个项目是京东PC端静态页面搜索页模拟</a><br>
