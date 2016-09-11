@@ -1,0 +1,722 @@
+body,h1,h3,dl,dt{
+	margin: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	font-size: 12px;
+}
+img{
+	vertical-align: top;
+	border: none;
+}
+input{
+	margin: 0;
+	padding: 0;
+	border-width: 1px;
+}
+.claerfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.jiange{
+	color: #d7c5d7;
+}
+.head_top{
+	height: 143px;
+	border-bottom: 1px solid #ddd;
+}
+.diaoding{
+	height: 30px;
+	line-height: 28px;
+	background-color: #2f2f2f;
+}
+.login{
+	text-align: center;
+}
+.head_top .login span{
+	color: #758b75;
+	font-size: 12px;
+}
+.head_top .login a{
+	color: #b5b5b5;
+}
+.head_top .login .bg1{
+	width: 19px;
+	height: 15px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url(../img/QQmusic/QQmusic.jpg) no-repeat -182px 0;
+}
+.head_top .login .bg2{
+	width: 20px;
+	height: 18px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url(../img/QQmusic/QQmusic.jpg) no-repeat -182px -15px;
+}
+.head_bottom{
+	width: 960px;
+	height: 113px;
+	margin: 0 auto;
+}
+.head_bottom .logo{
+	width: 182px;
+	height: 54px;	
+	float: left;
+	margin-top:31px;
+	background: url(../img/QQmusic/QQmusic.jpg)no-repeat 0 0 ;
+}
+.head_bottom .choose{
+	width: 430px;
+	float: left;
+	padding-left: 57px;
+}
+.head_bottom .choose_top{
+	width: 377px;
+	height: 75px;
+	text-align: center;
+}
+.head_bottom .choose_bottom{
+	width: 426px;
+	height: 32px;
+	padding-top: 6px;
+	padding-left: 21px;
+}
+.choose_top .m1{
+	width: 88px;
+	height: 26px;
+	padding-top: 49px;
+	float: left;
+	background: #0dad51;
+	color: #FFFFFF;
+}
+.choose_top .m2{
+	width: 76px;
+	height: 26px;
+	padding-top: 49px;
+	float: left;
+	color: #515151;
+}
+.choose_top .m3{
+	width: 83px;
+	height: 26px;
+	padding-top: 49px;
+	float: left;
+	color: #515151;	
+}
+.choose_top .m4{
+	width: 130px;
+	height: 26px;
+	padding-top: 49px;
+	float: left;
+	color: #515151;
+}
+.head_bottom .choose_top a{
+	font-size: 16px;
+	line-height: 16px;
+}
+.choose_bottom .jiange{
+	margin-left: 6px;
+	margin-right: 4px;
+}
+.shouye{
+	font-weight: bold;
+	color: #62ad51;
+}
+.qita{
+	color: #816e6e;
+}
+.search{
+	width: 219px;
+	height: 30px;
+	float: left;
+	margin-left: 64px;
+	margin-top:38px;
+	position: relative;
+	border:4px solid #f0f0f0 ;
+}
+.search input{
+	width: 218px;
+	height: 29px;
+	font-size: 12px;
+	color: #C3C3C3;
+	border: 1px solid #c3c3c3;
+}
+.btn{
+	width:12px;
+	height: 12px;
+	position:absolute ;
+	top: 9px;
+	right: 10px;
+	background: url(../img/QQmusic/QQmusic.jpg) no-repeat -182px -33px;
+}
+.content{
+	width: 960px;
+	height: 1999px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+.content .content_left{
+	width: 700px;
+	float: left;
+}
+.first_pub{
+	width: 700px;
+	height: 30px;
+	margin-top: 40px;
+	background: url(../img/QQmusic/QQmusic.jpg)no-repeat 0 -54px;
+}
+.first_pub .more{
+	width: 40px;
+	height: 31px;
+	line-height: 37px;
+	font-size: 14px;
+	color: #49ab73;
+	float: left;
+	padding-left: 136px;
+}
+.first_pub .turn_left{
+	width: 31px;
+	height: 31px;
+	float: right;
+	margin-left: 2px;
+	background: url(../img/QQmusic/QQmusic.jpg)no-repeat -91px -233px;
+}
+.first_pub .turn_right{
+	width: 31px;
+	height: 31px;
+	float: right;
+	background: url(../img/QQmusic/QQmusic.jpg)no-repeat -60px -233px;
+}
+.item_1 .sing{
+	width: 698px;
+	height: 270px;
+	padding-top: 20px;
+}
+.cover{
+	width: 130px;
+	height: 130px;
+	position: relative;
+	float: left;
+	margin-bottom: 10px;
+	margin-right:12px;
+}
+.cover_1{
+	width: 130px;
+	height: 130px;
+}
+.cover_2{
+	width: 130px;
+	height: 130px;
+	position: relative;
+	float: left;
+	margin-bottom: 10px;
+}
+.c_1{
+	width: 130px;
+	height: 130px;
+	
+}
+.cover .cover_bg{
+	width: 130px;
+	height: 48px;
+	background-color: #000000;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	opacity: 0.7;
+}
+.cover .sing_name{
+	font-size: 12px;
+	color: #11c651;
+	position: absolute;
+	bottom: 26px;
+	left: 6px;
+}
+.cover .songer{
+	font-size: 12px;
+	color: #FFFFFF;
+	position: absolute;
+	bottom: 5px;
+	left: 6px;
+}
+.cover_2 .cover_bg{
+	width: 130px;
+	height: 48px;
+	background-color: #000000;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	opacity: 0.7;
+}
+.cover_2 .sing_name{
+	font-size: 12px;
+	color: #11c651;
+	position: absolute;
+	bottom: 26px;
+	left: 6px;
+}
+.cover_2 .songer{
+	font-size: 12px;
+	color: #FFFFFF;
+	position: absolute;
+	bottom: 5px;
+	left: 6px;
+}
+.first_run{
+	width: 700px;
+	height: 30px;
+	margin-top: 40px;
+	background: url(../img/QQmusic/QQmusic.jpg)no-repeat 0 -84px;
+}
+.first_run .more{
+	width: 40px;
+	height: 31px;
+	line-height: 37px;
+	font-size: 14px;
+	color: #49ab73;
+	padding-left: 121px;
+}
+.item_2 .movie{
+	width: 700px;
+	height: 335px;
+}
+.env{
+	width: 160px;
+	height: 90px;
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 73px;
+	position: relative;
+}
+.env2{
+	width: 160px;
+	height: 90px;
+	float: left;
+	padding: 20px 0 73px 20px;
+	position: relative;
+}
+.env3{
+	width: 160px;
+	height: 90px;
+	float: left;
+	position: relative;
+}
+.env4{
+	width: 160px;
+	height: 90px;
+	float: left;
+	padding-left: 20px;
+	position: relative;
+}
+.today{
+	width: 32px;
+	height: 21px;
+	position: absolute;
+	right: 9px;
+	background: url(../img/QQmusic/QQmusic.jpg) no-repeat -122px -233px;
+}
+.song_name{
+	font-size: 12px;
+	color: #0c8f44;
+}
+.songer_name{
+	font-size: 12px;
+	color: #515151;
+}
+.tip{
+	display: block;
+	font-size: 12px;
+	color:#8b8b8b ;
+	line-height: 23px;
+}
+.time{
+	font-size: 12px;
+	color: #8B8B8B;
+	display: block;
+	text-align: right;
+	margin-bottom: 33px;
+}
+.tuijian{
+	width: 350px;
+	height: 30px;
+	float: left;
+	background: url(../img/QQmusic/QQmusic.jpg)no-repeat 0 -114px;
+}
+.tuijian2{
+	width: 350px;
+	height: 30px;
+	float: left;
+	background: url(../img/QQmusic/QQmusic.jpg)no-repeat 0 -144px;
+}
+.item_3{
+	width: 700px;
+	height: 457px;
+	padding-top: 34px;
+}
+.item3_left{
+	width: 350px;
+	height: 457px;
+	float:left;
+	border-right: 1px solid #B8B8B8;
+}
+.item3_right{
+	width: 349px;
+	height: 457px;
+	float:left;
+}
+.play{
+	width: 30px;
+	height: 30px;
+	display: block;
+	float: left;
+	margin-left: 134px;
+	background: url(../img/QQmusic/QQmusic.jpg)no-repeat 0 -233px;
+}
+.tianjia{
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-left: 10px;
+	display: block;
+	background: url(../img/QQmusic/QQmusic.jpg)no-repeat -30px -233px;
+}
+.tip2{
+	width: 111px;
+	height: 30px;
+	font-size: 12px;
+	float: left;
+	line-height: 24px;
+	padding-top: 4px;
+	margin-left: 17px;
+}
+.tip2 .style_1{
+	font-weight: bold;
+	color: #333;
+}
+.tip2 .style_2{
+	color: #0f820c;
+}
+.gap{
+	margin-left: -2px;
+	margin-right: -2px;
+	color: #d8d8d8;
+}
+.mlist{
+	width: 350px;
+	height: 487px;
+	line-height: 35px;
+	font-size: 12px;
+}
+.mlist2{
+	width: 350px;
+	height: 487px;
+	line-height: 35px;
+	font-size: 12px;
+}
+.music_b{
+	padding-left: 15px;
+}
+.music_1{
+	float: left;
+	color: #0f820c;
+}
+.singer_1{
+	float: left;
+	color: #515151;
+}
+.int{
+	padding-left: 3px;
+	padding-right: 1px;
+	float: left;
+}
+.item_4{
+	width: 700px;
+	height: 385px;
+}
+.jingxuan{
+	width: 700px;
+	height: 30px;
+	margin-bottom: 18px;
+	background: url(../img/QQmusic/QQmusic.jpg) no-repeat 0 -174px;
+}
+.jingxuanji{
+	width: 427px;
+	height: 345px;
+	float: left;
+}
+.datu{
+	width: 270px;
+	height: 313px;
+	float: left;
+	margin-right: 3px;
+}
+.xiaotu1{
+	width: 130px;
+	height: 155px;
+	float: left;
+	margin-left: 12px;
+	margin-bottom: 36px;
+}
+.xiaotu{
+	width: 130px;
+	height: 155px;
+	float: left;
+	margin-left: 12px;
+}
+.biaoqian{
+	height: 14px;
+	width: 45px;
+	font-size: 12px;
+	color: #0c8f44;
+	display: block;
+	margin-top: 5px;
+}
+.jieshao{
+	height: 14px;
+	line-height: 36px;
+	font-size: 12px;
+	color: #8B8B8B;	
+}
+.pic2{
+	margin-bottom: 9px;
+	float: left;
+}
+.biaoqian2{
+	height: 14px;
+	width: 130px;
+	font-size: 12px;
+	color: #0c8f44;
+	display: block;
+}
+.content .content_right{
+	width: 220px;
+	float: right;
+}
+.content_right .find{
+	width: 220px;
+	height: 29px;
+	background: url(../img/QQmusic/QQmusic.jpg) no-repeat 0 -204px;
+}
+.content_right .login{
+	width: 220px;
+	height: 135px;
+	border-bottom: 1px solid #e4e4e4;
+}
+.content_right .log{
+	width: 170px;
+	height: 45px;
+	display: block;
+	margin-top: 25px;
+	margin-left: 25px;
+	background: url(../img/QQmusic/QQmusic.jpg) no-repeat 0 -264px;
+}
+.content_right .ad_2{
+	width: 220px;
+	height: 146px;	
+}
+.content_right .topnotch{
+	width: 220px;
+	height: 356px;
+	border-bottom:1px dotted #E4E4E4 ;
+}
+.notch{
+	width: 220px;
+	height: 30px;
+	margin-bottom: 12px;
+}
+.top_1{
+	width: 54px;
+	height: 30px;
+	float: left;
+	background: url(../img/QQmusic/QQmusic.jpg) no-repeat 0 -331px;
+}
+.notch .top_play{
+	width: 30px;
+	height: 30px;
+	display: block;
+	float: left;
+	margin-left: 11px;
+	margin-right: 10px;
+	background: url(../img/QQmusic/QQmusic.jpg) no-repeat 0 -233px;
+}
+.notch .top_add{
+	width: 30px;
+	height: 30px;
+	display: block;
+	float: left;
+	background: url(../img/QQmusic/QQmusic.jpg) no-repeat -30px -233px;
+}
+.topnotch .type{
+	margin-bottom: 18px;
+	font-size: 12px;
+}
+.type_style{
+	color: #0c8f44;
+}
+.the_first{
+	width: 220px;
+	height:50px;
+}
+.number{
+	float: left;
+	font-size: 18px;
+	color: #ff5400;
+}
+.touxiang{
+	float: left;
+	padding-left:11px;
+	padding-right:11px;
+}
+.songs{
+	float: left;
+	width: 92px;
+	height: 21px;
+	display: block;
+	background: url(../img/QQmusic/QQmusic.jpg) no-repeat 0 -310px;
+}
+.secondsongs{
+	width:220px;
+	height: 25px;
+	line-height: 24px;
+}
+.number2{
+	font-size: 12px;
+	color: #c0c0c0;
+	float: left;
+	padding-right: 28px;
+}
+.songsname{
+	font-size: 12px;
+	color: #0c8f44;
+	float:left ;
+	padding-right: 23px;
+}
+.songers{
+	font-size: 12px;
+	color: #515151;
+	float: right;
+}
+.musiclist{
+	width: 221px;
+	height: 99px;
+	border-bottom: 1px solid #e4e4e4;
+}
+.yinyuebang{
+	line-height: 24px;
+	padding-top: 10px;
+}
+.musiclist a{
+	font-size: 12px;
+	color: #515151;
+	margin-right: 17px;
+}
+.firesonger{
+	width: 220px;
+	height: 241px;
+	border-bottom: 1px dotted #E4E4E4;
+}
+.headfire{
+	width: 220px;
+	height: 22px;
+	padding-top: 25px;
+}
+.firesonger .fire{
+	width: 73px;
+	height: 22px;
+	padding-left: 82px;
+	font-size: 12px;
+	color: #49ab73;
+	background: url(../img/QQmusic/QQmusic.jpg)no-repeat 0 -368px;
+}
+.geshou{
+	width: 220px;
+	height: 178px;
+	padding-top: 20px;
+}
+.geshou img{
+	padding-bottom: 5px;
+}
+.firesonger .tong{
+	float: left;
+	margin-right: 32px;
+}
+.firesonger .ling{
+	float: left;
+}
+.firesonger a{
+	font-size: 12px;
+	color: #000000;
+}
+.geshou span{
+	margin-bottom: 20px;
+	display: block;
+}
+.songerlist{
+	width: 220px;
+	height: 109px;
+	border-bottom: 1px solid #E4E4E4;
+}
+.songer_list .sl{
+	margin-right: 14px;
+}
+.crazy{
+	width: 220px;
+	height: 308px;
+	border-bottom: 1px solid #E4E4E4;
+}
+.picture1{
+	width: 220px;
+	height: 164px;
+}
+.picture2{
+	width: 220px;
+	height: 146px;
+}
+.foot{
+	height: 269px;
+	background: #f7f7f7;
+}
+.footrul{
+	width: 960px;
+	margin: 0 auto;
+}
+.footrul_top{
+	width: 960px;
+	height: 190px;
+}
+.footrul_bottom{
+	width: 502px;
+	height: 80px;
+	padding-left: 230px;
+}
+.foothead{
+	font-size: 18px;
+	color: #757575;
+	padding-top: 37px;
+	font-weight: bold;
+}
+.footdown{
+	width: 350px;
+	height: 100px;
+	float: left;
+}
+.footdown2{
+	float: left;
+}
+.footdown3{
+	float: right;
+}
+.foottip{
+	line-height: 25px;
+}
+.foottip a{
+	padding-right: 20px;
+	color: #8B8B8B;
+}
