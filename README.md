@@ -6,3 +6,4 @@
 <a href="https://nx5285.github.io/EliminateGame/EliminateGame.html">PC:这个项目是一个小游戏的demo《小游戏：消除表情》的游戏页面
 </a><br>
 <a href="https://nx5285.github.io/diamonds-game/game.html">PC:这个项目是一个用jquery框架模拟的小游戏的demo《小游戏：简易版俄罗斯方块》的游戏页面</a><br>
+<a href="https://nx5285.github.io/UEhtml-Responsive/UEhtml.html">PC:这个项目是UEhtml静态页面响应式模拟</a><br>
