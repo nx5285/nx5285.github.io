@@ -1,0 +1,225 @@
+body{
+	margin: 0;
+}
+img{
+	vertical-align: middle;
+	border: none;
+}
+a{
+	text-decoration: none;
+}
+input{
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+body{
+	background: #F9F9F9;
+}
+.claerfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.outline{
+	width: 982px;
+	height: 718px;
+	margin: 0 auto;
+	background: #f9f9f9;
+}
+.head{
+	width: 960px;
+	height: 27px;
+	margin-top: 30px;
+	margin-bottom: 24px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.head .pic{
+	margin-right: 23px;
+}
+.head .pic2{
+	margin-right: 22px;
+}
+.head .pic3{
+	margin-right: 17px;
+}
+.head .tip{
+	width: 261px;
+	height: 27px;
+	font-size: 20px;
+	line-height: 24px;
+	border-left: 1px solid #ccc;
+	padding-left: 12px;
+}
+.fankui{
+	height: 27px;
+	padding-right: 6px;
+}
+.tip2{
+	font-size: 12px;
+	line-height: 27px;
+	height: 27px;
+	color: #003399;
+}
+.content{
+	width: 960px;
+	height: 586px;
+	margin: 0 auto;
+}
+.content_top{
+	width: 938px;
+	height: 38px;
+	background: url(../img/title-bg.jpg) repeat-x;
+	color: #FFFFFF;
+	font-size: 14px;
+	line-height: 37px;
+	padding-left: 22px;
+}
+.content_bottom{
+	width: 958px;
+	height: 547px;
+	border: 1px solid #e0e0e0;
+	border-top: none;
+}
+.content_right{
+	width: 315px;
+	height: 547px;
+	border-left: 1px solid #e0e0e0;
+	background: url(../img/插图.jpg) no-repeat 52px 105px #f5f5f5;
+}
+.content_left{
+	width: 642px;
+	height: 547px;
+}
+.zhuce{
+	width: 336px;
+	height: 34px;
+	margin: 50px 0 34px 145px;
+}
+.zhuce a{
+	color: black;
+}
+.zhuce .letter{
+	color: #FFFFFF;
+}
+.letter{
+	width: 166px;
+	height: 32px;
+	background: url(../img/zhuce.jpg) repeat-x;
+	border: 1px solid #0e529a;
+	text-align: center;
+	line-height: 32px;
+	font-weight: bold;
+}
+.phone{
+	width: 166px;
+	height: 32px;
+	border: 1px solid #b5b5b5;
+	text-align: center;
+	line-height: 32px;
+}
+.inf{
+	padding-left: 67px;
+}
+.addzong,.passwordzong,.passwordagainzong,.yanzhengmazong{
+	width: 430px;
+	height: 28px;
+}
+.add{
+	width: 210px;
+	height: 25px;
+	border: 1px solid #ababab ;
+}
+.add2{
+	width: 98px;
+	height: 25px;
+	border: 1px solid #ababab ;
+}
+.password{
+	width: 332px;
+	height: 25px;
+	border: 1px solid #ababab;
+}
+.passwordagain{
+	width: 332px;
+	height: 25px;
+	border: 1px solid #ababab;
+}
+.yanzhengma{
+	width:208px;
+	height: 27px;
+	border: 1px solid #ABABAB;
+}
+.yangenghuan{
+	font-size: 12px;
+	color: #003399;
+	display: block;
+	padding-left: 278px;
+	padding-top: 9px;
+	vertical-align: bottom;
+}
+.tishi{
+	height: 12px;
+	font-size: 12px;
+	color: #999;
+	padding-left: 79px;
+	line-height: 12px;
+	margin-top: 11px;
+}
+.tishizong{
+padding-top: 8px;
+padding-bottom: 14px;
+}.yantishi{
+	line-height: 12px;
+	padding-top: 34px;
+}
+.addzong{
+	padding-left: 10px;
+}
+.passwordzong{
+	padding-left: 42px;
+}
+.passwordagainzong{
+	padding-left: 10px;
+}
+.yanzhengmazong{
+	padding-left: 26px;
+}
+.tiaokuan{
+	padding-left: 81px;
+	padding-top:25px;
+	height: 12px;
+	font-size: 12px;
+}
+.a1{
+	color: #999;
+}
+.a2{
+	color: #003399;
+}
+.lijizhuce{
+	width: 117px;
+	height: 35px;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	background: url(../img/zcbg.jpg) repeat-x;
+	border: 1px solid #43952e;
+}
+.zhuce2{
+	padding-top: 19px;
+	padding-left: 79px;
+}
+.foot{
+	line-height: 42px;
+	font-size: 12px;
+	color: #999;
+	padding-left: 211px;
+}
