@@ -196,6 +196,18 @@ section{
 	height:7.140625rem;
 	border-bottom: 0.015625rem solid #f7f7f7;
 }
+.typeleft{
+	width: 5rem;
+	height:7.140625rem;
+	float: left;
+	border-bottom: 0.015625rem solid #f7f7f7;
+}
+.typeright{
+	width: 5rem;
+	height:7.140625rem;
+	float: left;
+	border-bottom: 0.015625rem solid #f7f7f7;
+}
 .eat{
 	width:4.984375rem;
 	height:4.609375rem;
