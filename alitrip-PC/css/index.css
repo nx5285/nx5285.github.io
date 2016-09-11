@@ -1,0 +1,1176 @@
+/* 首页样式表 */
+/* content区域 */
+#content{
+	margin-top: 15px;
+	height: 3750px;
+}
+/* .fastQuery_banner 快捷查询-banner图 */
+#content .fastQuery_banner{
+	width: 100%;
+	height: 300px;
+}
+.fastQuery_banner .left_fastQuery{
+	width: 682px;
+	height: 296px;
+	border: 2px solid #e3e6ea;
+}
+.left_fastQuery .tab_menu{
+	width: 89px;
+	height: 296px;
+	background-color: #4e5662;
+}
+.left_fastQuery .tab_menu .menu_item{
+	padding-left: 10px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	border-bottom: 1px solid #484f5b;
+	color: #ffffff;
+	cursor: pointer;
+}
+.left_fastQuery .tab_menu .menu_item:last-child{
+	border-bottom: none;
+}
+.left_fastQuery .tab_menu .currentMenu{
+	color: #5db4f0;
+	background-color: #ffffff;
+}
+.left_fastQuery .tabMenu_content{
+	width: 592px;
+	height: 296px;
+}
+.tabMenu_content .subMenu_list{
+	height: 42px;
+	border-bottom: 1px solid #e3e6ea;
+	padding-left: 25px;
+}
+.tabMenu_content .subMenu_list .sub_menu a{
+	line-height: 40px;
+	color: #5f727f;
+	font-size: 14px;
+	float: left;
+	padding: 0 6px;
+	margin-top: -1px;
+}
+.subMenu_list .sub_menu a:hover,.subMenu_list .subMenu_current a{
+	color: #5db4f0;
+}
+.subMenu_list .subMenu_current a{
+	border-bottom: 3px solid #5eb5f1;
+}
+.sub_menu .sub_line{
+	float: left;
+	width: 1px;
+	height: 15px;
+	margin: 13px 5px;
+	background-color: #dcdde0;
+}
+.tabMenu_content .sub_content .form{
+	position: relative;
+}
+.form .selectType_myOrder{
+	padding-top: 20px;
+	padding-bottom: 8px;
+	font-family: "宋体";
+}
+.sub_content .selectType label{
+	margin-right: 15px;
+}
+.sub_content .selectType input{
+	width: 13px;
+	height: 13px;
+	margin-right: 5px;
+	float: left;
+}
+.sub_content .form{
+	height: 219px;
+	padding: 0 20px 0 25px;
+}
+.form .myOrder a{
+	color: #355976;
+}
+.form .myOrder a:hover{
+	color: red;
+	text-decoration: underline;
+}
+.form dl{
+	margin-bottom: 10px;
+	margin-right: 27px;
+}
+.form dd input{
+	padding-left: 4px;
+	width: 254px;
+	height: 28px;
+	border-radius: 3px;
+	border: 1px solid #c7d1e4;
+	font-family: "微软雅黑";
+}
+.form dt{
+	color: #4e5662;
+	line-height: 20px;
+	font-family: "宋体";
+}
+.form .btn_submit{
+	display: block;
+	width: 160px;
+	height: 36px;
+	background-position: 0 -10px;
+	font-size: 16px;
+	color: #FFFFFF;
+	font-weight: bold;
+	border: none;
+}
+.sub_content .fangxinfei{
+	position: absolute;
+	left: 22px;
+	bottom: 0;
+}
+.sub_content .subContent_footer{
+	height: 33px;
+	border-top: 1px solid #e7eaec;
+	background-color: #f0f0f0;
+}
+.subContent_footer .ico_subContentFooter{
+	display: inline-block;
+	width: 16px;
+	height: 18px;
+	background-position: 0 -47px;
+	margin: 8px 5px 0 12px;
+}
+.subContent_footer a{
+	display: inline;
+	float: left;
+	color: #355976;
+	text-shadow: 1px 1px 0 #FFF;
+	height: 15px;
+	line-height: 14px;
+	border-right: 1px solid #d8d8d8;	
+	margin: 8px 5px 0 0;
+	padding-right: 4px;
+}
+.subContent_footer a:hover{
+	text-decoration: underline;
+}
+.roundTrip_ticket{
+	display: none;
+}
+.fastQuery_banner .right_banner{
+	width: 490px;
+	height: 300px;
+	position: relative;
+}
+.right_banner .banner_pic{
+	width: 490px;
+	height: 300px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.right_banner .btn_list a{
+	float: left;
+	width: 18px;
+	height: 18px;
+	background-color: #8b8b8b;
+	margin-right: 14px;
+	border-radius: 9px;
+}
+.right_banner .btn_list a:hover, .right_banner .btn_list .active{
+	background-color: #ff8800;
+}
+.right_banner .btn_list{
+	position: absolute;
+	bottom: 14px;
+	right: 61px;
+}
+/* .special 每日特惠-特价机票*/
+#content .special{
+	width: 100%;
+	height: 558px;
+}
+.special .left_special{
+	width: 990px;
+	height: 558px;
+}
+.left_special .leftSpecial_menu{
+	height: 36px;
+	line-height: 36px;
+	border-bottom: 3px solid #ff5741;
+	color: #5F727F;
+	font-weight: bold;
+}
+.leftSpecial_menu .specialMenu_item{
+	font-size: 16px;
+	cursor: pointer;
+	margin-right: 42px;
+	position: relative;
+}
+.leftSpecial_menu .specialMenu_item:hover{
+	color: #ff5741;
+	text-decoration: underline;
+}
+.leftSpecial_menu .specialMenuCurrent{
+	color: #ff5741;
+}
+.leftSpecial_menu .ico_currentBg{
+	display: block;
+	border: 4px solid #ff5741;
+	border-color: transparent transparent #ff5741;
+	border-top: 0;
+	overflow: hidden;
+	position: absolute;
+	left: 50%;
+	margin-left: -4px;
+	bottom: -1px;
+}
+.leftSpecial_menu .moreSpecial a{
+	color: #20516f;
+	line-height: 30px;
+	font-size: 12px;
+	font-weight: normal;
+}
+.left_special .specialMenu_content{
+	height: 519px;
+}
+.specialMenu_content .specialContent_item_header{
+	height: 34px;
+	line-height: 23px;
+	padding-top: 11px;
+	color: #20516f;
+}
+.specialContent_item_header .specialSubMenu a{
+	height: 20px;
+	line-height: 20px;
+	padding: 0 5px;
+	color: #20516f;
+}
+.specialContent_item_header .specialSubMenu a:hover, .specialContent_item_header .specialSubMenu .specialSubMenuCurrent{
+	color: #ffffff;
+	background-color: #ff684d;
+}
+.specialSubContent_item .each_subContentItem{
+	width: 240px;
+	height: 182px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	position: relative;
+}
+.specialSubContent_item a{
+	color: #20516f;
+}
+.each_subContentItem a{
+	color: #20516f;
+}
+.each_subContentItem .subContentItem_pic{
+	position: absolute;
+	width: 240px;
+	height: 121px;
+	left: 0;
+	top: 0;
+}
+.each_subContentItem .subContentItem_desc{
+	position: absolute;
+	width: 238px;
+	height: 59px;
+	left: 0;
+	bottom: 0;
+	border-left: 1px solid #ecebeb;
+	border-right: 1px solid #ecebeb;
+	border-bottom: 2px solid #ecebeb;
+}
+.subContentItem_desc .desc_title{
+	position: absolute;
+	width: 218px;
+	height: 22px;
+	font-size: 14px;
+	line-height: 22px;
+	padding: 6px 10px 0 10px;
+	bottom: 25px;
+	overflow: hidden;
+	transition: 300ms;
+	background-color: #fff;
+}
+.each_subContentItem a:hover .subContentItem_desc{
+	height: 81px;
+}
+.each_subContentItem a:hover .desc_title{
+	height: 50px;
+}
+.subContentItem_desc .haveBuy_num{
+	position: absolute;
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	left: 10px;
+	bottom: 0;
+}
+.subContentItem_desc .min_price{
+	position: absolute;
+	width: 140px;
+	height: 35px;
+	color: #ff5741;
+	right: 10px;
+	bottom: 0;
+	text-align: right;
+}
+.subContentItem_desc .min_price .priceNum{
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 35px;
+}
+.bottom .each_bottom{
+	margin-right: 10px;
+	position: relative;
+	width: 240px;
+	height: 58px;
+	padding: 0 10px;
+	border: 1px solid #ecebeb;
+	box-sizing: border-box;
+}
+.bottom .each_bottom:hover{
+	border: 1px solid #ff472f;
+}
+.each_bottom .city{
+	display: block;
+	margin-top: 10px;
+	font-size: 14px;
+	line-height: 20px;
+}
+.city .arrow-r{
+	margin: 0 10px 0 13px;
+}
+.each_bottom .date_price{
+	height: 28px;
+	line-height: 28px;
+	font-size: 12px;
+	display: block;
+}
+.date_price .date{
+	color: #5f727f;
+}
+.date_price .min_price{
+	color: #ff5741;
+}
+.min_price .priceNum{
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: normal;
+}
+.special .right_travelAround{
+	width: 190px;
+	height: 100%;
+}
+.right_travelAround .right_header{
+	height: 36px;
+	line-height: 36px;
+	border-bottom: 3px solid #34c5f2;
+	font-size: 16px;
+	color: #34c5f2;
+	font-weight: bold;
+}
+.right_content .select{
+	height: 34px;
+	line-height: 23px;
+	padding-top: 11px;
+}
+.search_result .eachCity_result{
+	width: 190px;
+	height: 82px;
+	margin: 10px 0;
+	border-bottom: 1px solid #DDDDDD;
+}
+.search_result .eachCity_result:first-child{
+	margin-top: 0;
+}
+.search_result .eachCity_result:last-child{
+	border-bottom: none;
+}
+.eachCity_result .pic{
+	width: 72px;
+	height: 72px;
+}
+.eachCity_result .other_info{
+	width: 110px;
+	height: 72px;
+	margin-left: 8px;
+}
+.other_info .city_name{
+	color: #20516f;
+	height: 34px;
+	line-height: 17px;
+	margin-bottom: 17px;
+}
+.other_info .about_price{
+	height: 19px;
+	letter-spacing: -1px;
+}
+.about_price .save_money{
+	line-height: 19px;
+	color: #5f727f;
+}
+.about_price .pay_money{
+	color: #FF5741;
+	font-size: 16px;
+	float: right;
+}
+/* .ticket 门票 */
+#content .ticket{
+	height: 538px;
+}
+/* .vacation 度假 */
+#content .vacation{
+	height: 568px;
+}
+.vacation .parts3_recommend .recommend{
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.vacation .recommend .recommend_title{
+	height: 14px;
+	line-height: 14px;
+	border-left: 3px solid #3ea3ff;
+	padding-left: 10px;
+	color: #3ea3ff;
+	font-weight: bold;
+}
+.vacation .recommend .recommend_content{
+	padding-top: 11px;
+}
+.recommend_content .recommend_item{
+	margin-bottom: 9px;
+	height: 42px;
+	transition: 300ms;
+}
+.recommend_content .recommend_item:hover{
+	transform: translateX(-10px);
+}
+.recommend_content .recommend_item a{
+	display: block;
+	font-size: 14px;
+}
+.recommend_item .num_bg1,.num_bg2,.num_bg3,.num_bg4,.num_bg5,.num_bg6,.num_bg7,.num_bg8,.num_bg9{
+	width: 20px;
+	height: 20px;
+	margin-top: 8px;
+}
+.recommend_item .num_bg1{
+	background-position: -19px -48px;
+}
+.recommend_item .num_bg2{
+	background-position: -39px -48px;
+}
+.recommend_item .num_bg3{
+	background-position: -59px -48px;
+}
+.recommend_item .num_bg4{
+	background-position: -79px -48px;
+}
+.recommend_item .num_bg5{
+	background-position: -99px -48px;
+}
+.recommend_item .num_bg6{
+	background-position: -119px -48px;
+}
+.recommend_item .num_bg7{
+	background-position: -139px -48px;
+}
+.recommend_item .num_bg8{
+	background-position: -159px -48px;
+}
+.recommend_item .num_bg9{
+	background-position: -179px -48px;
+}
+.recommend_item .num_right{
+	position: relative;
+	width: 155px;
+	height: 42px;
+}
+.num_right .name{
+	color: #333333;
+}
+.num_right .price{
+	position: absolute;
+	color: #ff5741;
+	right: 0;
+	bottom: 0;
+}
+.vacation .eachContent .eachContent_item{
+	padding: 0 6px;
+	box-sizing: border-box;
+}
+.vacation .eachContent .view_title{
+	display: block;
+	width: 162px;
+	height: 32px;
+	font-size: 14px;
+	/*padding-top: 7px;*/
+	line-height: 16px;
+	text-align: left;
+}
+.vacation .eachContent .saleRecords{
+	color: #999999;
+	display: block;
+	margin-top: 6px;
+}
+.vacation .pic_address_price{
+	display: block;
+	width: 162px;
+	height: 142px;
+	position: relative;
+}
+.vacation .pic_address_price .pic{
+	position: absolute;
+	width: 162px;
+	height: 126px;
+	left: 0;
+	top: 0;
+}
+.vacation .pic_address_price .address_price{
+	position: absolute;
+	width: 162px;
+	height: 30px;
+	border: 1px solid #aeaba7;
+	box-sizing: border-box;
+	left: 0;
+	bottom: 0;
+	transform: skew(-20deg);
+	line-height: 28px;
+	font-size: 14px;
+}
+.vacation .address_price .address{
+	display: block;
+	width: 108px;
+	height: 28px;
+	text-align: center;
+	background-color: rgba(0,0,0,0.8);
+	color: #fff;
+}
+.vacation .address_price .price{
+	display: block;
+	width: 52px;
+	height: 28px;
+	text-align: center;
+	background-color: #fff;
+	color: #ff5741;
+}
+
+/* .hotel 酒店 */
+#content .hotel{
+	height: 558px;
+}
+.banner_bottom .bottomContent{
+	margin-top: 18px;
+	padding-bottom: 3px;
+}
+.bottomContent .each_bannerBottom{
+	width: 194px;
+	border-left: 1px solid #3ea3ff;
+	font-size: 14px;
+	font-family: "宋体";
+}
+.each_bannerBottom .bannerBottom_title{
+	height: 16px;
+	color: #3ea3ff;
+	border-left: 3px solid #3ea3ff;
+	margin-left: -1px;
+	padding-left: 11px;
+}
+.each_bannerBottom .bannerBottomCity a{
+	float: left;
+	width: 63px;
+	margin-top: 23px;
+	text-align: center;
+	color: #355976;
+}
+.each_bannerBottom .bannerBottomCity a:hover{
+	color: #3ea3ff;
+}
+.hotel .content_top .eachTop{
+	border-left: 1px solid #e1e1e1;
+	height: 112px;
+}
+.content_top .priceRange{
+	width: 200px;
+}
+.content_top .commRange{
+	width: 270px;
+}
+.content_top .brand{
+	width: 270px;
+}
+.eachTop .eachTop_title{
+	height: 14px;
+	line-height: 14px;
+	border-left: 3px solid #e1e1e1;
+	padding-left: 11px;
+	color: #3ea3ff;
+	font-weight: bold;
+	font-size: 14px;
+}
+.eachTop .eachTopContent{
+	border-top: 1px solid #e1e1e1;
+	margin: 10px 10px;
+}
+.eachTop .eachTopContent a{
+	float: left;
+	margin-top: 12px;
+	color: #000000;
+	text-align: center;
+}
+.eachTop .eachAddress{
+	transition: 300ms;
+}
+.eachTop .eachAddress:hover{
+	transform: translateX(-10px);
+}
+.hotel .priceRange a{
+	width: 90px;
+}
+.hotel .commRange a{
+	width: 83px;
+}
+.hotel .brand a{
+	width: 83px;
+}
+.eachContent .content_bottom{
+	margin-top: 25px;
+}
+.eachContent .content_bottom .eachBottom{
+	width: 368px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	transition: 300ms;
+}
+.eachContent .content_bottom .eachBottom:hover{
+	transform: translateX(-10px);
+}
+.content_bottom .eachBottom span{
+	display: block;
+}
+.content_bottom .eachBottom .bottom_pic{
+	width: 140px;
+	height: 88px;
+}
+.content_bottom .eachBottom .bottom_info{
+	width: 212px;
+	margin-left: 14px;
+}
+.bottom_info .hotel_name{
+	font-size: 20px;
+}
+.bottom_info .hotel_level{
+	font-size: 14px;
+	margin: 10px 0;
+}
+.hotel_priceSaleNum .hotel_price{
+	color: #ff5741;
+}
+.hotel_priceSaleNum .hotel_num{
+	color: #999999;
+}
+/* .inn 客栈 */
+#content .inn{
+	width :100%;
+	height: 538px;
+}
+.inn .banner_bottom .bl{
+	border-left: 1px solid #e1e1e1;
+}
+.inn .banner_bottom .bannerBottom_title{
+	height:16px;
+	border-left: 3px solid #e1e1e1;
+	padding-left: 11px;
+	color: #3ea3ff;
+	border-left: 3px solid #e1e1e1;
+	margin-left: -1px;
+	padding-left: 11px;
+	font: normal 14px/16px "宋体";
+}
+.inn .city_name a{
+	color: #000000;
+}
+.inn .city_name a:hover{
+	color: #3ea3ff;
+}
+.inn .city_name li{
+	float: left;
+	width: 63px;
+	text-align: center;
+	font: 14px/29px "宋体";
+}
+.inn .commRange{
+	border-left: 1px solid #e1e1e1;
+}
+.inn .commRange .commRange_title{
+	text-align: left;
+	height: 14px;
+	line-height: 14px;
+	border-left: 3px solid #e1e1e1;
+	padding-left: 11px;
+	color: #3ea3ff;
+	font-weight: bold;
+	font-size: 14px;
+}
+.inn .commRange .commRange_name{
+	border-top: 1px solid #e1e1e1;
+	margin: 10px 10px;
+}
+.inn .commRange .commRange_name a{
+	width: 78px;
+	float: left;
+	margin-top: 12px;
+	color: #000000;
+	text-align: center;
+	font-size: 14px;
+}
+.inn .commRange .commRange_name a:hover{
+	color: #3ea3ff;
+}
+
+/* .flight 机票 */
+#content .flight{
+	width :100%;
+	height: 690px;
+}
+.flight .banner_bottom a{
+	float: left;
+	color: #333333;
+	font-size: 16px;
+	font-family:  "宋体";
+	text-align: center;
+	width: 193px;
+	height: 58px;
+	line-height: 58px;
+}
+.flight .aboutFlight{
+	position: relative;
+}
+.aboutFlight .verticalLine{
+	width: 1px;
+	height: 106px;
+	position: absolute;
+	background-color: #e1e1e1;
+	top: 5px;
+	left: 193px;
+}
+.aboutFlight .horizontalLine{
+	width: 340px;
+	height: 1px;
+	position: absolute;
+	background-color: #e1e1e1;
+	left: 30px;
+	top: 58px;
+}
+.flight .banner_bottom a:hover{
+	background-color: #e2f1fe;
+}
+.flight .banner_bottom .ico_myTicket{
+	display: inline-block;
+	width: 28px;
+	height:21px;
+	background-position: 0 -68px;
+}
+.flight .banner_bottom .ico_lowPriceTrendy{
+	display: inline-block;
+	width: 27px;
+	height:26px;
+	background-position: -28px -68px;
+}
+.flight .banner_bottom .ico_FlightNews{
+	display: inline-block;
+	width: 27px;
+	height:21px;
+	background-position: -55px -68px;
+}
+.flight .banner_bottom .ico_FlightOrder{
+	display: inline-block;
+	width: 21px;
+	height:24px;
+	background-position: -82px -68px;
+}
+.flight .bottom{
+	width: 768px;
+	height: 78px;
+	border: 1px solid #dddddd;
+}
+.bottom .pre,.bottom .next{
+	width: 26px;
+	height: 78px;
+	text-indent: -9999px;
+	float: left;
+}
+.bottom .ico_pre,.bottom .ico_next{
+	display: block;
+	width: 11px;
+	height: 18px;
+	margin-top: 30px;
+	margin-left: 7px;
+	box-sizing: border-box;
+}
+.bottom .ico_pre{
+	background-position: -15px -63px;
+}
+.bottom .ico_next{
+	background-position: -26px -63px;
+}
+.flight .bottom .cityPic{
+	float: left;
+	position: relative;
+	text-align: center;
+	border-left: 1px solid #f4f4f4;
+	border-right: 1px solid #f4f4f4;
+	vertical-align: bottom;
+	margin-left: -1px;
+}
+.flight .bottom .cityPic:hover{
+	background-color: #e2f1fe;
+}
+.flight .bottom .btn{
+	width: 26px;
+	height: 78px;
+}
+.flight .top{
+	margin-bottom: 20px;
+}
+.flight .top .eachTop{
+	padding-top: 5px;
+}
+.flight .top_head{
+	height: 36px;
+}
+.flight .top_head .head_title{
+	width: 174px;
+	height: 14px;
+	color: #3ea3ff;
+	padding-left: 10px;
+	border-left: 3px solid #3ea3ff;
+	margin-top: 12px;
+	font-weight: bold;
+}
+.flight .top_head .head_menu{
+	height: 28px;
+	margin: 4px 0;
+	font-size: 14px;
+}
+.head_menu .cityName{
+	width: 110px;
+	height: 26px;
+	line-height: 26px;
+	padding-left: 10px;
+	border: 1px solid #e1e1e1;	
+	cursor: pointer;
+	font-family: "宋体";
+}
+.head_menu .flightType, .head_menu .specialType{
+	height: 28px;
+	border: 1px solid #e1e1e1;	
+	color: black;
+	font-size: 14px;
+}
+.head_menu .flightType{
+	width: 82px;
+	margin-left: -1px;
+}
+.head_menu .specialType{
+ 	width: 132px;
+ 	margin-left: 9px;
+}
+.flight .more{
+ 	font-size: 12px;
+ 	font-family: "微软雅黑";
+}
+.flight .top_content{
+	text-align: center;
+	font-size: 14px;
+	height: 105px;
+}
+.flight .top_content a{
+	display: block;
+	width: 97px;
+ 	display: block;
+ 	margin-bottom: 12px;
+}
+.flight .top_content span{
+ 	display: block;
+ 	margin-top: 12px;
+ 	color: #333333;
+}
+.flight a .flightPrice{
+	color: #ff5741;
+}
+/* 模块之间的划分-公用部分 */
+#content .item_head{
+	height: 40px;
+	border-bottom: 4px solid #3ea3ff;
+	color: #3ea3ff;
+}
+.item_head .head_bg{
+	display: block;
+	height: 10px;
+	background-position: 0 0;
+}
+.item_head .head_title{
+	line-height: 30px;
+	font-size: 20px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+.item_head .sub_title{
+	padding-top: 11px;
+	font-family: Georgia;
+	font-size: 14px;
+}
+.more{
+	width:135px;
+	height: 22px;
+	background-position: -19px -26px;
+	font-size: 14px;
+	font-family: "宋体";
+	color: #3ea3ff;
+	text-align: center;
+	margin-right: 10px;
+	margin-top: 4px;
+	vertical-align: middle;
+	line-height: 22px;
+}
+#content .item_content{
+}
+#content .item_content .parts3_banner,#content .item_content .parts2_banner{
+	width: 390px;
+}
+
+.parts3_banner .banner_top,.parts2_banner .banner_top{
+	width: 390px;
+	height: 230px;
+	position: relative;
+}
+.parts3_banner .banner_top .banner_pic,.parts2_banner .banner_top .banner_pic{
+	width: 390px;
+	height: 230px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.banner_top .pre_next .pre,.banner_top .pre_next .next{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	top: 95px;
+	text-align: center;
+}
+.banner_top .pre_next .pre{
+	left: 0;
+}
+.banner_top .pre_next .next{
+	right: 0;
+}
+.banner_top .pre .ico_pre,.banner_top .next .ico_next{
+	display: inline-block;
+	width: 13px;
+	height: 21px;
+	margin-top: 10px;
+	text-indent: -9999px;
+}
+.banner_top .pre .ico_pre{
+	background-position: -116px -68px;
+}
+.banner_top .next .ico_next{
+	background-position: -103px -68px;
+}
+.banner_top .pre_next .pre:hover,.banner_top .pre_next .next:hover{
+	background-color: rgba(0,0,0,.5);;
+}
+.banner_top .btn_list{
+	position: absolute;
+	width: 72px;
+	height: 10px;
+	bottom: 14px;
+	right: 164px;
+}
+.banner_top .btn_list a{
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	background-color: rgba(255,255,255,.6);;
+	margin-right: 14px;
+}
+.banner_top .btn_list a:hover,.banner_top .btn_list .current{
+	background-color: red
+}
+.parts3_banner .banner_middle,.parts2_banner .banner_middle{
+	width: 390px;
+	height: 92px;
+	position: relative;
+}
+.flight .banner_middle{
+	height: 158px;
+}
+.banner_middle .pic_01{
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0.8;
+	z-index: 10;
+}
+.banner_middle .pic_02{
+	position: absolute;
+	top: 0;
+	right: 0;
+	opacity: 0.8;
+}
+.banner_middle a:hover{
+	z-index: 10;
+}
+.parts3_banner .banner_bottom{
+	width: 390px;
+	height: 132px;
+	position: relative;
+}
+#content .item_content .parts3_tab{
+	width: 593px;
+}
+#content .item_content .parts3_recommend{
+	width: 190px;
+}
+#content .item_content .parts2_banner{
+	width: 390px;
+}
+#content .item_content .parts2_tab{
+	width: 780px;
+}
+.item_content .parts3_tab, .item_content .parts2_tab{
+	padding-top: 10px;
+}
+.parts3_tab .eachMenu,.parts2_tab .eachMenu{
+	width: 108px;
+	height: 28px;
+	border: 1px solid #44a5fc;
+	margin-left: -1px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 28px;
+}
+.parts3_tab .tab_menu,.parts2_tab .tab_menu{
+	height: 28px;
+}
+.parts3_tab .tab_menu .currentMenu a,.parts2_tab .tab_menu .currentMenu a{
+	color: #fff;	
+}
+.parts3_tab .tab_menu .eachMenu,.parts2_tab .tab_menu .eachMenu{
+	transform: skew(-30deg);
+}
+
+.parts3_tab .tab_menu .currentMenu,.parts2_tab .tab_menu .currentMenu{
+	background-color: #44a5fc;
+}
+.eachMenu a{
+	display: block;
+	color: #333333;
+	transform: skew(30deg);
+}
+.eachMenu a:hover{
+	color: #44a5fc;
+}
+.tab_content{
+	padding-top: 16px;
+	/*height: 424px;*/
+}
+.parts3_tab .tab_content .eachContent_item,.parts2_tab .tab_content .eachContent_item{
+	width: 178px;
+	margin-right: 22px;
+	margin-bottom: 22px;
+	text-align: center;
+	height: 190px;
+}
+.eachContent_item .view_pic{
+	transition: 300ms;
+}
+.eachContent_item .view_pic:hover{
+	transform: translateX(-10px);
+}
+.eachContent a{
+	display: block;
+	color: #333333;
+}
+.eachContent .view_title{
+	display: block;
+	font-size: 18px;
+	margin-top: 7px;
+	line-height: 38px;
+}
+.eachContent .view_desc{
+	display: block;
+}
+.eachContent .salePrice{
+	color: #ff5741;
+	font-size: 14px;
+}
+.parts3_recommend .recommendMenu{
+	margin-top: 20px;
+	padding-left: 27px;
+}
+.parts3_recommend .recommendMenu li{
+	width: 64px;
+	height: 22px;
+	line-height: 22px;
+	border-bottom: 2px solid #FFFFFF;
+	text-align: center;
+	cursor: pointer;
+	color: #333333;
+	margin-right: 10px;
+}
+.parts3_recommend .recommendMenu li:hover{
+	color: #3ea3ff;
+}
+.parts3_recommend .recommendMenu .currentMenu{
+	color: #3ea3ff;
+	border-bottom: 2px solid #3ea3ff;
+}
+.parts3_recommend .recommendContent{
+	width: 186px;
+	padding-top: 10px;
+	padding-left: 4px;
+}
+.recommendContent li{
+	margin-bottom: 5px;
+	transition: 300ms;
+}
+.recommendContent li:hover{
+	transform: translateX(-10px);
+}
+.recommendContent li a{
+	display: block;
+	width: 176px;
+	background-color: #f7f8f8;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+.recommendContent .img{
+	margin-right: 8px;
+}
+.recommendContent .img_right{
+	width: 108px;
+}
+.recommendContent span{
+	display: block;
+}
+.recommendContent .img_right .title{
+	height: 30px;
+	line-height: 15px;
+	color: #333333;
+	font-size: 14px;
+}
+.recommendContent .price{
+	color: #ff5741;
+}
+.recommendContent .img_right .saleNum{
+	color: #999999;
+}
+.recommendContent li .noImg{
+	width: 176px;
+	line-height: 29px;
+	color: #333333;
+	background-color: #FFFFFF;
+}
+.noImg .no{
+	margin-right: 3px;
+}

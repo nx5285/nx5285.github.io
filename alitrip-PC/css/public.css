@@ -1,0 +1,53 @@
+/* 工具样式表 */
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.bg{
+	background-image: url(../img/index/repeat_bg.png);
+	background-repeat: repeat-x;
+}
+.ico{
+	background-image: url(../img/index/ico_index.png);
+	background-repeat: no-repeat;
+}
+.ico_hotel{
+	background-image: url(../img/hotel/ico_hotel.png);
+	background-repeat: no-repeat;
+}
+.ico_flight{
+	background-image: url(../img/flight/ico_flight.png);
+	background-repeat: no-repeat;
+}
+.mr17{
+	margin-right: 17px;
+}
+.mr22{
+	margin-right: 22px;
+}
+.mr20{
+	margin-right: 20px;
+}
+.mr25{
+	margin-right: 25px;
+}
+.mt16{
+	margin-top: 16px;
+}
+#content .noMargin,#main .noMargin{
+	margin-right: 0;
+}
+
+.bb{
+	border-bottom: 1px solid #e1e1e1;
+}
+#main .nobr{
+	border-right: none;
+}

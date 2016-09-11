@@ -1,0 +1,628 @@
+#main{
+	margin-top: 8px;
+}
+/* 公用标题 开始 */
+.common_header{
+	font: normal 16px/36px "宋体";
+	height: 36px;
+	padding-left: 8px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+}
+.special_groBuying .common_header{
+	border-bottom-color: #ff684d;
+	color: #ff684d;
+}
+.NReason .common_header{
+	border-bottom-color: #fdba00;
+	color: #fdba00;
+}
+.inland_hotel .common_header{
+	border-bottom-color: #3fb3fb;
+	color: #3fb3fb;
+}
+.foreign_hotel .common_header{
+	border-bottom-color: #15bcbe;
+	color: #15bcbe;
+}
+.hotel_dir .common_header{
+	border-bottom-color: #af84d7;
+	color: #af84d7;
+}
+.star_merchant .common_header{
+	border-bottom: none;
+	color: #475d6b;
+}
+/* 公用标题 结束 */
+
+/* 公用副标题-tab切换菜单 开始 */
+.sub_title{
+	padding-left: 8px;
+	font: 12px/22px "宋体";
+	color: #13334d;
+	margin: 11px 0 10px 0;
+}
+.tab_menu{
+	font: 12px/22px "宋体";
+	color: #13334d;
+	margin-top: 10px;
+	height: 22px;
+}
+.tab_menu .tab_menu_item{
+	color: #2d4b5f;
+	margin: 0 2px 0 10px;
+	padding: 0 8px;
+	cursor: pointer;
+}
+.tab_menu .tab_menu_item:hover,.tab_menu .current{
+	color: #FFFFFF;
+	background-color: #15bcbe;
+	border-radius: 2px;
+}
+.hot_hotel{
+	padding-left: 8px;
+	color: #2d4b5f;
+	font: 12px/22px "宋体";
+	height: 22px;
+	margin-top: 10px;
+}
+.moreHotel{
+	padding-right: 8px;
+	color: #2d4b5f;
+	font: 12px/22px "宋体";
+	height: 22px;
+	margin-top: 10px;
+}
+.moreHotel:hover{	
+	text-decoration: underline;
+}
+.inland_hotel .tab_menu .tab_menu_item:hover,.inland_hotel .tab_menu .current{
+	color: #FFFFFF;
+	background-color: #3fb3fb;
+	border-radius: 2px;
+}
+.hotel_dir .tab_menu .tab_menu_item:hover,.hotel_dir .tab_menu .current{
+	color: #FFFFFF;
+	background-color: #af84d6;
+	border-radius: 2px;
+}
+/* 公用副标题-tab切换菜单 结束 */
+
+/* 公用红色价格字体 开始 */
+.little_salePrice{
+	font-family: tahoma,verdana;
+	font-size: 18px;
+	color: #ff5741;
+}
+.big_salePrice{
+	font-family: tahoma,verdana;
+	font-size: 28px;
+	color: #ff5741;
+}
+/* 公用红色价格字体 结束 */
+
+/* 快捷查询 开始 */
+#main .fastQuery_banner{
+	height: 320px;
+}
+.fastQuery_banner .left_fastQuery{
+	width: 488px;
+	height: 318px;
+	border: 1px solid #d2d2d2;
+	background: url(../img/hotel/fastQuery_bg.png) no-repeat;
+}
+.left_fastQuery .menuList{
+	height: 42px;
+	border-bottom: 1px solid #e3e6ea;
+	padding-left: 20px;
+}
+.menuList .item_menu a{
+	color: #5f727f;
+	font-size: 14px;
+	float: left;
+	padding: 0 6px;
+	line-height: 40px;
+	margin-top: -1px;
+}
+.menuList .item_menu a:hover,.menuList .menuCurrent a{
+	color: #5db4f0;
+}
+.menuList .menuCurrent a{
+	border-bottom: 3px solid #5eb5f1;
+}
+.item_menu .line{
+	float: left;
+	width: 1px;
+	height: 15px;
+	margin: 13px 5px;
+	background-color: #dcdde0;
+}
+.sub_content .form{
+	height: 219px;
+	padding: 10px 20px 0 20px;
+}
+.form dl{
+	margin-bottom: 10px;
+	margin-right: 27px;
+}
+.form dd input{
+	padding-left: 4px;
+	width: 204px;
+	height: 28px;
+	border-radius: 3px;
+	border: 1px solid #c7d1e4;
+	font-family: "微软雅黑";
+}
+.form dt{
+	color: #73787f;
+	line-height: 20px;
+	font-family: "宋体";
+}
+.form .btn_submit{
+	display: block;
+	width: 160px;
+	height: 36px;
+	background-position: 0 -10px;
+	font-size: 16px;
+	color: #FFFFFF;
+	font-weight: bold;
+	border: none;
+	cursor: pointer;
+	margin-top: 18px;
+}
+.suggest{
+	line-height: 40px;
+	height: 40px;
+	padding-left: 347px;
+	margin-top: 20px;
+}
+.suggest a{
+	color: #58b1f3;
+	font-family: "宋体";
+}
+.suggest a:hover{
+	text-decoration: underline;
+}
+
+
+
+.fastQuery_banner .right_banner{
+	width: 700px;
+	height: 320px;
+}
+.right_banner .banner_top{
+	height: 255px;
+	position: relative;
+}
+.banner_top .banner_picList{
+	height: 255px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.banner_top .banner_btnList a{
+	float: left;
+	width: 18px;
+	height: 18px;
+	background-color: #8b8b8b;
+	margin-left: 10px;
+	border-radius: 9px;
+}
+.banner_top .banner_btnList a:hover, .banner_top .banner_btnList .active{
+	background-color: #ff8800;
+}
+.banner_top .banner_btnList{
+	position: absolute;
+	bottom: 14px;
+	right: 15px;
+}
+.right_banner .banner_bottom{
+	height: 63px;
+	border: 1px solid #d2d2d2;
+	border-left: none;
+}
+.banner_bottom .safeguard_title a{
+	display: block;
+	width: 256px;
+	height: 63px;
+	background-position: 0 0;
+	text-indent: -9999px;
+}
+.safeguard li{
+	border-right: 1px solid #c7d3df;
+	text-align: center;
+	width: 137px;
+	height: 38px;
+	margin-top: 14px;
+}
+.safeguard .nobr{
+	border-right: none;
+}
+.safeguard li a{
+	width: 137px;
+	height: 38px;
+	text-align: center;
+	display: block;
+	color: #3b5d84;
+	line-height: 20px;
+	position: relative;
+}
+.safeguard li a .hiddenTip{
+	position: absolute;
+	width: 150px;
+	top: 36px;
+	left: -10px;
+	display: none;
+}
+.safeguard li a:hover .hiddenTip{
+	display: block;
+}
+.hiddenTip .triangle{
+	position: absolute;
+	width: 14px;
+	height: 8px;
+	top: 0;
+	left: 50%;
+	margin-left: -5px;
+	background-position: -37px -63px;
+	z-index: 10;
+}
+.hiddenTip .tips{
+	position: absolute;
+	left: 0;
+	top: 6px;
+	padding-top: 4px;
+	box-sizing: border-box;
+	text-align: left;
+	font-size: 12px;
+	border: 1px solid #B3B3B3;
+	border-radius: 3px;
+	box-shadow: 1px 2px 3px rgba(90,90,90,.3);
+	line-height: 18px;
+	background-color: #69b0ee;
+}
+.tips .tip_title{
+	font-weight: bold;
+	padding: 10px 10px 5px 10px;
+	background-color: #fff;
+}
+.tips .tip_content{
+	padding: 0 10px 15px 10px;
+	background-color: #fff;
+}
+.safeguard .ico_SG{
+	margin: auto;
+	display: block;
+	width: 15px;
+	height: 15px;
+	background-position: 0 -63px;
+	margin-bottom: 4px;
+}
+/* 快捷查询 结束 */
+
+/* 未来酒店 开始 */
+#main .future_hotel{
+	height: 50px;
+}
+/* 未来酒店 结束 */
+
+/* 今日特卖-超值团购 开始 */
+#main .special_groBuying{
+	height: 444px;
+}
+.special_groBuying .left_special{
+	width: 290px;
+	height: 100%;
+	margin-right: 10px;
+}
+.left_special .special_content{
+	height: 360px;
+}
+.special_content .pic_hotelName{
+	display: block;
+	width: 290px;
+	height: 310px;
+	position: relative;
+}
+.pic_hotelName .specialContent_pic{
+	width: 290px;
+	height: 310px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.special_content .special_sign{
+	position: absolute;
+	width: 78px;
+	height: 78px;
+	left: -1px;
+	top: -1px;
+	background-position: -256px 0;
+}
+.special_content .special_hotelName{
+	height: 45px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	font: 14px/20px "宋体";
+	color: #ffffff;
+	padding: 6px 8px 0 8px;
+	background-color: #ff684d;
+}
+.special_content .price_saleNum{
+	display: block;
+	width: 272px;
+	height: 50px;
+	border: 1px solid #dddddd;
+	border-top: none;
+	padding: 0 8px;
+}
+.special_content .price_saleNum .salePrice{
+	line-height: 50px;
+	margin-right: 10px;
+}
+.special_content .price_saleNum .marketPrice{
+	padding-top: 24px;
+	font-family: "宋体";
+	color: #909090;
+}
+.special_content .price_saleNum .saleNum{
+	padding-top: 24px;
+	color: #2d4b5f;
+	font-family: "宋体";
+}
+.special_groBuying .right_groBuying{
+	width: 890px;
+	height: 444px;
+}
+.tab_content .item_eachContent{
+	width: 215px;
+	height: 175px;
+	margin-right: 10px;
+	margin-top: 11px;
+}
+/*.right_groBuying .tab_content .item_eachContent:nth-child(4){
+	margin-right: 0;
+}
+.right_groBuying .tab_content .item_eachContent:nth-child(8){
+	margin-right: 0;
+}*/
+.right_groBuying .pic_hotelName{
+	height: 145px;
+	position: relative;
+	display: block;
+}
+.right_groBuying .hotel_pic{
+	position: absolute;
+	width: 215px;
+	height: 145px;
+	left: 0;
+	top: 0;
+}
+.right_groBuying .pic_hotelName .hotelName{
+	position: absolute;
+	width: 215px;
+	height: 28px;
+	left: 0;
+	bottom: 0;
+	color: #FFFFFF;
+	font-family: "宋体";
+	padding: 5px 8px 0px 8px;
+	box-sizing: border-box;
+	background-color: rgba(0,0,0,.6);
+	line-height: 20px;
+	overflow: hidden;
+	transition: 300ms;
+}
+.right_groBuying .pic_hotelName .hotelName:hover{
+	height: 42px;
+}
+.right_groBuying .item_eachContent .price_saleNum{
+	display: block;
+	height: 29px;
+	border: 1px solid #dddddd;
+	border-top: none;
+	padding: 0 8px;
+}
+.right_groBuying .item_eachContent .price_saleNum .salePrice{
+	line-height: 29px;
+	margin-right: 6px;
+}
+.right_groBuying .item_eachContent .price_saleNum .marketPrice{
+	padding-top: 11px;
+	font-family: "宋体";
+	color: #909090;
+}
+.LTH{
+	text-decoration: line-through;
+}
+.right_groBuying .item_eachContent .price_saleNum .saleNum{
+	padding-top: 11px;
+	color: #2d4b5f;
+	font-family: "宋体";
+}
+/* 今日特卖-超值团购 结束 */
+
+/* 给你N个理由住酒店 开始 */
+#main .NReason{
+}
+.NReason .eachContent{
+	width: 285px;
+	height: 210px;
+	margin-right: 16px;
+	padding-top: 16px;
+}
+.NReason .eachContent .hotel_pic{
+	width: 285px;
+	height: 80px;	
+	margin-bottom: 10px;
+}
+/*.NReason .eachContent:last-child{
+	margin-right: 0;
+}*/
+.NReason .top4_hotels{
+	margin-top: 2px;
+}
+.NReason .top4_hotels:hover{
+	background-color: #E5E5E5;
+}
+.NReason .top4_hotels a{
+	display: block;
+	line-height: 28px;
+	font-family: "宋体";
+	color: #3f3f3f;
+}
+.NReason .top4_hotels .pro_hotelName{
+	width: 210px;
+	padding-left: 5px;
+}
+.NReason .top4_hotels .salePrice{
+	padding-right: 5px;
+}
+
+/* 给你N个理由住酒店 结束 */
+
+/* 国内酒店推荐 开始 */
+#main .inland_hotel{
+}
+.inland_hotel .item_eachContent, .foreign_hotel .item_eachContent{
+	width: 230px;
+	height: 231px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+/*.inland_hotel .item_eachContent:nth-child(5),.foreign_hotel .item_eachContent:nth-child(5){
+	margin-right: 0;
+}
+.inland_hotel .item_eachContent:nth-child(10),.foreign_hotel .item_eachContent:nth-child(10){
+	margin-right: 0;
+}*/
+.inland_hotel .hotel_pic,.foreign_hotel .hotel_pic{
+	display: block;
+	width: 230px;
+	height: 160px;
+}
+.inland_hotel .hotel_namePrice,.foreign_hotel .hotel_namePrice{
+	display: block;
+	height: 70px;
+	border: 1px solid #dddddd;
+	border-top: none;
+	padding: 0 8px;
+	color: #2d4b5f;
+}
+.inland_hotel .hotelName,.foreign_hotel .hotelName{
+	display: block;
+	font-size: 14px;
+	line-height: 18px;
+	padding-top: 10px;
+}
+.inland_hotel .price_saleNum,.foreign_hotel .price_saleNum{
+	display: block;
+	height: 42px;
+}
+.inland_hotel .price_saleNum .salePrice,.foreign_hotel .price_saleNum .salePrice{
+	line-height: 42px;
+}
+.inland_hotel .price_saleNum .saleNum,.foreign_hotel .price_saleNum .saleNum{
+	padding-top: 18px;
+	color: #2d4b5f;
+}
+/* 国内酒店推荐 结束 */
+
+/* 国外酒店推荐 开始 */
+#main .foreign_hotel{
+}
+/* 国外酒店推荐 结束 */
+
+/* 酒店目录 开始 */
+#main .hotel_dir{
+}
+.hotel_dir .tab_content .hotPos,.hotel_dir .tab_content .brand{
+	margin-top: 12px;
+}
+.hotel_dir .tab_content .hotPos .hotelDir_title,.hotel_dir .tab_content .brand .hotelDir_title{
+	width: 14px;
+	padding: 0 12px;
+	text-align: center;
+	color: #ffffff;
+	background-color: #af84d7;
+	font: 14px/25px "宋体";
+}
+.hotel_dir .tab_content .mat_content{
+	width: 1151px;
+	border: 1px solid #DDDDDD;
+	border-left: none;
+	padding-top: 9px;
+}
+.hotel_dir .item_eachContent{
+	width: 255px;
+	height: 88px;
+	margin: 0 12px 9px 20px;
+}
+.hotel_dir .item_eachContent .hotelDir_subtitle{
+	font-size: 14px;
+	line-height: 24px;
+	color: #3f3f3f;
+	font-weight: bold;
+}
+.hotel_dir .item_eachContent .hotelDir_name a{
+	float: left;
+	line-height: 21px;
+	color: #666666;
+	margin-right: 15px;
+	white-space: nowrap;
+}
+.hotel_dir .item_eachContent .hotelDir_name a:hover{
+	color: red;
+}
+/* 酒店目录 结束 */
+
+/* 明星商家 开始 */
+#main .star_merchant{
+}
+.star_merchant .content{
+	height: 78px;
+	border: 1px solid #dddddd;
+}
+.star_merchant .content a{
+	float: left;
+}
+.star_merchant .content .pre,.star_merchant .content .next{
+	width: 38px;
+	height: 78px;
+	text-indent: -9999px;
+}
+.star_merchant .content .ico_pre,.star_merchant .content .ico_next{
+	display: block;
+	width: 11px;
+	height: 18px;
+	margin-top: 29px;
+	margin-left: 13px;
+}
+.star_merchant .content .ico_pre{
+	background-position: -15px -63px;
+}
+.star_merchant .content .ico_next{
+	background-position: -26px -63px;
+}
+.star_merchant .content img{
+	width: 100px;
+	height: 78px;
+	border-left: 1px solid #dddddd;
+	border-right: 1px solid #dddddd;
+	margin-left: -1px;
+}
+/* 明星商家 结束 */
+
+/* 酒店banner 开始 */
+#main .hotel_banner{
+	height: 80px;
+	margin: 26px 0;
+}
+.hotel_banner a{
+	float: left;
+	width: 290px;
+	height: 80px;
+	margin-right: 10px;
+}
+/* 酒店banner 结束 */

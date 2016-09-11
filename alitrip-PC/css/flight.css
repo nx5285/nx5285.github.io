@@ -1,0 +1,737 @@
+#main{
+	margin-top: 8px;
+	background-color: #ededed;
+}
+/* 公用标题 开始 */
+.common_header{
+	height: 30px;
+	line-height: 30px;
+	color: #13334d;
+	font-family: "宋体";
+}
+.common_header .common_title{
+	color: #404040;
+	margin-right: 20px;
+	font: normal 20px/30px "微软雅黑";
+}
+.queryForm input{
+	padding-left: 4px;
+	color: #000000;
+	width: 140px;
+	height: 28px;
+	border: 1px solid #c7d1e4;
+	border-radius: 3px;
+	margin-right: 19px;
+}
+/* 公用标题 结束 */
+/* 快捷查询 开始 */
+#main .fastQuery_banner{
+	height: 295px;
+}
+.fastQuery_banner .left_fastQuery{
+	width: 388px;
+	height: 293px;
+	border: 1px solid #d2d2d2;
+	background: #fff url(../img/flight/fastQuery_left_bg.png) no-repeat;
+	background-color: #fff;
+}
+.left_fastQuery .menuList{
+	height: 42px;
+	border-bottom: 1px solid #e3e6ea;
+	padding-left: 20px;
+}
+.menuList .item_menu a{
+	color: #5f727f;
+	font-size: 14px;
+	float: left;
+	padding: 0 6px;
+	line-height: 40px;
+	margin-top: -1px;
+}
+.menuList .item_menu a:hover,.menuList .menuCurrent a{
+	color: #5db4f0;
+}
+.menuList .menuCurrent a{
+	border-bottom: 3px solid #5eb5f1;
+}
+.item_menu .line{
+	float: left;
+	width: 1px;
+	height: 15px;
+	margin: 13px 5px;
+	background-color: #dcdde0;
+}
+.sub_content .form{
+	height: 219px;
+	padding: 0 20px 0 20px;
+}
+.form .selectType_myOrder{
+	padding-top: 20px;
+	padding-bottom: 8px;
+	font-family: "宋体";
+}
+.selectType label{
+	margin-right: 15px;
+}
+.selectType input{
+	width: 13px;
+	height: 13px;
+	margin-right: 5px;
+	float: left;
+}
+.form dl{
+	margin-bottom: 10px;
+	margin-right: 27px;
+}
+.form dd input{
+	padding-left: 4px;
+	width: 150px;
+	height: 28px;
+	border-radius: 3px;
+	border: 1px solid #c7d1e4;
+	font-family: "微软雅黑";
+}
+.form dt{
+	color: #73787f;
+	line-height: 20px;
+	font-family: "宋体";
+}
+.form .btn_submit{
+	display: block;
+	width: 160px;
+	height: 36px;
+	background-position: 0 -10px;
+	font-size: 16px;
+	color: #FFFFFF;
+	font-weight: bold;
+	border: none;
+	cursor: pointer;
+	margin-right: 8px;
+}
+.suggest{
+	line-height: 40px;
+	height: 40px;
+	padding-left: 347px;
+	margin-top: 20px;
+}
+.suggest a{
+	color: #58b1f3;
+	font-family: "宋体";
+}
+.suggest a:hover{
+	text-decoration: underline;
+}
+.fastQuery_banner .right_banner{
+	width: 590px;
+	height: 295px;
+	background-color: #fff;
+	position: relative;
+}
+.right_banner .banner_top{
+	height: 230px;
+	position: relative;
+}
+.banner_top .banner_picList{
+	height: 230px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	/*background-color: red;*/
+}
+.banner_top .banner_btnList{
+	position: absolute;
+	bottom: 5px;
+	right: 4px;
+}
+.banner_top .banner_btnList a{
+	float: left;
+	width: 16px;
+	height: 16px;
+	background-color: #8b8b8b;
+	margin-left: 12px;
+	border-radius: 8px;
+}
+.banner_top .banner_btnList a:hover, .banner_top .banner_btnList .active{
+	background-color: #ff8800;
+}
+.right_banner .banner_bottom{
+	height: 65px;
+	border-top: 2px solid #f2f6f9;
+	border-bottom: 2px solid #eaeaea;
+	background: url(../img/flight/flight_banner_bottom.jpg) no-repeat;
+	padding: 6px 0;
+	box-sizing: border-box;
+}
+.banner_bottom  .SG_text{
+	display: block;
+	text-indent: -9999px;
+}
+.banner_bottom a{
+	display: block;
+	color: #3b5d84;
+	margin-right: 1px;
+	position: relative;
+}
+.banner_bottom .safeguard_title{
+	padding: 0 20px;
+	width: 102px;
+	height: 49px;
+}
+.banner_bottom .ticket{
+	width: 61px;
+	height: 49px;
+}
+.banner_bottom .travel{
+	width: 62px;
+	height: 49px;
+}
+.banner_bottom .standardBackMeal{
+	width: 66px;
+	height: 49px;
+}
+.banner_bottom .back,.banner_bottom .secret,.banner_bottom .insuranceEscort{
+	width: 78px;
+	height: 49px;
+}
+.banner_bottom li a .hiddenTip{
+	position: absolute;
+	width: 150px;
+	top: 36px;
+	left: -10px;
+	display: none;
+}
+.banner_bottom li a:hover .hiddenTip{
+	display: block;
+}
+.hiddenTip .tips{
+	width: 150px;
+	position: absolute;
+	left: 0;
+	top: 6px;
+	padding-top: 4px;
+	box-sizing: border-box;
+	text-align: left;
+	font-size: 12px;
+	border: 1px solid #B3B3B3;
+	border-radius: 3px;
+	box-shadow: 1px 2px 3px rgba(90,90,90,.3);
+	line-height: 18px;
+	background-color: #69b0ee;
+}
+.tips .tip_title{
+	font-weight: bold;
+	padding: 10px 10px 5px 10px;
+	background-color: #fff;
+}
+.tips .tip_content{
+	padding: 0 10px 15px 10px;
+	background-color: #fff;
+}
+.sideBar{
+	position: absolute;
+	width: 28px;
+	height: 170px;
+	top: 0px;
+	right: -28px;
+}
+.sideBar a{
+	display: block;
+	padding: 6px;
+	font: bold 14px/17px "宋体";
+	margin-bottom: 10px;
+	color: #fff;
+	box-shadow: 2px 2px 2px 0 #d2d2d2;
+}
+.sideBar .online{
+	background-image: linear-gradient(90deg,rgba(4,140,193,1) 0%,rgba(23,159,217,1) 100%);
+}
+.sideBar .sug_feedBack{
+	background-image: linear-gradient(90deg,rgba(81,90,102,1) 0%,rgba(105,114,125,1) 100%);
+}
+
+/* 快捷查询 结束 */
+
+/* 特价航班 开始 */
+#main .special_flight{
+	background-color: #fff;
+	height: 273px;
+	border-bottom: 1px solid #dedede;
+	padding: 23px 30px 0 30px;
+	font-family: "宋体";
+}
+.special_flight .queryForm input{
+	width: 94px;
+	margin-right: 0;
+}
+.special_flight .queryForm select{
+	height: 30px;
+	border: 1px solid #c7d1e4;
+	border-radius: 3px;
+	color: #000000;
+}
+.special_flight .flight_tips{
+	height: 30px;
+}
+.special_flight .flight_tips a{
+	color: #000000;
+}
+.special_flight .flight_tips a:hover{
+	color: #ff8800;
+	text-decoration: underline;
+}
+.special_flight .flight_result{
+	padding-top: 19px;
+	padding-left: 3px;
+}
+.flight_result .each_resultBlock{
+	width: 300px;
+	border-right: 1px dotted #dedede;
+	margin-right: 12px;
+	line-height: 30px;
+}
+.each_resultBlock .eachResult_info{
+	height: 30px;
+	margin-bottom: 10px;
+}
+.each_resultBlock .eachResult_info a{
+	display: block;
+	color: #000000;
+}
+.eachResult_info .startCity_arriveCity{
+	width: 130px;
+}
+.eachResult_info .date{
+	width: 50px;
+	color: #808080;
+}
+.eachResult_info .salePrice{
+	width: 70px;
+	text-align: right;
+	font-family: Arial;
+	font-size: 22px;
+	color: #f80;
+	vertical-align: -2px;
+}
+.eachResult_info .discount{
+	width: 35px;
+	text-align: right;
+	color: #808080;
+}
+.each_resultBlock .eachResult_info:hover{
+	height: 30px;
+	background-color: #ECECEC;
+}
+/* 特价航班 结束 */
+
+/* 航班指南 开始 */
+#main .flight_guide{
+	height: 127px;
+	padding-left: 30px;
+	padding-top: 27px;
+	border-bottom: 1px solid #dedede;
+	background-color: #fff;
+	font-family: "宋体";
+}
+#main .flight_guide a{
+	color: #404040;
+}
+#main .flight_guide a:hover{
+	color: #ff8800;
+	text-decoration: underline;
+}
+.flight_guide .guide_left{
+	width: 360px;
+	height: 99px;
+	border-right: 1px dotted #dedede;
+	margin-right: 12px;
+}
+
+.guide_left .left_top{
+	width: 340px;
+	padding-top: 5px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #dedede;
+	font-weight: bold;
+}
+.left_top .leftTop_ul{
+	width: 340px;
+	height: 18px;
+	line-height: 18px;
+	background-position: -46px -37px;
+}
+.guide_left .left_top li{
+	margin-left: 23px;
+	margin-right: 60px;
+}
+.guide_left .left_bottom{
+	width: 340px;
+	height: 43px;
+	margin-top: 14px;
+	background-position: -46px -55px;
+}
+.guide_left .left_bottom li{
+	line-height: 20px;
+	margin: 0 22px 6px 20px;
+}
+.guide_right .right_pic{
+	width: 200px;
+	height: 100px;
+	margin-right: 10px;
+}
+.pic_info .pic_name{
+	font-size: 14px;
+	font-family: "宋体";
+	height: 46px;
+	line-height: 23px;
+	margin-bottom: 8px;
+}
+.pic_info .pic_name a{
+	color: #404040;
+	font-weight: bold;
+}
+.pic_info .ori_price{
+	line-height: 21px;
+	color:  #888888;
+	text-decoration: line-through;
+}
+.pic_info .curPrice_discount_ope .curPrice{
+	font-size: 20px;
+	color: #ff8800;
+	line-height: 25px;
+	font-family: arial;
+	font-weight: bold;
+}
+.pic_info .curPrice_discount_ope .discount{
+	color:  #888888;
+}
+.pic_info .curPrice_discount_ope .ope a{
+	color:  #888888;
+	padding: 6px 9px 3px 10px;
+	border: 1px solid #dcdcdc;
+	border-radius: 2px;
+	background-color: #f6f6f6;
+}
+/* 航班指南 结束 */
+
+/* 航空保险-店铺 开始 */
+
+/* 航空保险-店铺 结束 */
+#main .flight_safeShops{
+	height: 100px;
+	border-bottom: 1px solid #dedede;
+	padding: 27px 30px;
+	background-color: #fff;
+}
+.flight_safeShops .left_safe{
+	width: 350px;
+	height: 98px;
+	border: 1px solid #dedede;
+	padding-left: 10px;
+	margin-right: 13px;
+}
+.left_safe .safe_title{
+	text-indent: -9999px;
+	width: 66px;
+	height: 39px;
+	background-position: -56px -101px;
+}
+.left_safe select{
+	border: 1px solid #dedede;
+	color: #8f8f8f;
+}
+.left_safe .safe_type{
+	width: 164px;
+	height: 22px;
+}
+.left_safe .date_range{
+	width: 104px;
+	height: 22px;
+}
+.left_safe .btn_submit{
+	width: 54px;
+	height: 22px;
+	border: 1px solid #dedede;
+	background-color: #fbfbfb;
+	cursor: pointer;
+	border-radius: 2px;
+}
+.left_safe .btn_submit:hover{
+	background-color: #ECECEC;
+}
+.right_shops .each_shop{
+	width: 260px;
+	margin-right: 8px;
+}
+.right_shops .shop_pic{
+	width: 100px;
+	height: 100px;
+	margin-right: 10px;
+}
+.right_shops .shop_info{
+	width: 150px;
+	font-family: "宋体";
+}
+.shop_info .shop_name{
+	font-size: 14px;
+	height: 44px;
+	line-height: 22px;
+}
+.shop_info .shop_name a{
+	color: #404040;
+	font-weight: bold;
+}
+.shop_info .shop_name a:hover{
+	color: #ff8800;
+	text-decoration: underline;
+}
+.shop_info .shop_desc{
+	height: 30px;
+	line-height: 30px;
+	color: #888888;
+	margin-bottom: 8px;
+}
+.shop_info .shop_ope a{
+	padding: 3px 10px 4px 9px;
+	color: #545454;
+	border: 1px solid #dedede;
+}
+
+/* 明星商家 开始 */
+#main .star_merchant{
+	padding: 11px 30px 31px 30px;
+	background-color: #fff;
+}
+#main .star_merchant a:hover{
+	background-color: #ededed;
+}
+.star_merchant .content{
+	margin-top: 6px;
+	height: 85px;
+	border: 1px solid #dddddd;
+}
+.star_merchant .content a{
+	float: left;
+}
+.star_merchant .content .pre,.star_merchant .content .next{
+	width: 31px;
+	height: 85px;
+	text-indent: -9999px;
+}
+.star_merchant .content .next{
+	border-left: 1px solid #dddddd;
+}
+.star_merchant .content .ico_pre,.star_merchant .content .ico_next{
+	display: block;
+	width: 11px;
+	height: 18px;
+	margin-top: 33px;
+	margin-left: 10px;
+}
+.star_merchant .content .ico_pre{
+	background-position: -15px -63px;
+}
+.star_merchant .content .ico_next{
+	background-position: -26px -63px;
+}
+.star_merchant .content img{
+	width: 107px;
+	height: 85px;
+	border-left: 1px solid #dddddd;
+}
+/* 明星商家 结束 */
+
+/* 航空旗舰店 开始 */
+#main .flight_flagShip{
+	height: 480px;
+	border-bottom: 1px solid #dedede;
+	background-color: #fff;
+}
+.flight_flagShip .common_header{
+	padding: 15px 0 13px 30px;
+}
+.flight_flagShip .flagShip_left{
+	width: 385px;
+	background-color: #e9e9e9;
+}
+.flagShip_left .flagShip_tabMenu{
+	width: 45px;
+	height: 423px;
+	margin-right: 3px;
+	background-color: #fff;
+	/*background-position: -1px -37px;*/
+}
+.flagShip_left .flagShip_tabMenu a{
+	display: block;
+	width: 45px;
+	height: 38px;
+	position: relative;
+}
+.flagShip_left .flagShip_tabMenu a:hover ,.flagShip_left .flagShip_tabMenu .currentMenu{
+	width: 76px;
+	height: 37px;
+	z-index: 10;
+	background: url(../img/flight/ico_flight.png) 0 0 no-repeat;
+}
+.flagShip_left .tab_content{
+	padding-top: 16px;
+	width: 325px;
+	height: 385px;
+}
+.flagShip_left .each_content .flagShip_desc{
+	padding: 0 23px;
+}
+.flagShip_desc .desc_info{
+	height: 214px;
+	font-size: 16px;
+	line-height: 32px;
+	text-indent: 2em;
+	color: #484848;
+}
+.flight_flagShip_title{
+	width: 306px;
+	height: 95px;
+	padding-left: 9px;
+}
+.flight_flagShip_subTitle{
+	font: bold 18px/55px "微软雅黑";
+	color: #404040;
+}
+.flagShip_foot{
+	height: 16px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 16px;
+	color: #0185b8;
+}
+.flagShip_foot a{
+	color: #0185b8;
+	text-align: center;
+}
+.flagShip_foot .flagShip_line{
+	margin: 0 6px;
+}
+.flight_flagShip .flagShip_right{
+	width: 560px;
+	padding-left: 26px;
+}
+.tab_menu{
+	font: 12px/22px "宋体";
+	color: #13334d;
+	height: 22px;
+}
+.tab_menu .tab_menu_item{
+	color: #2d4b5f;
+	margin-right: 8px;
+	padding: 0 10px;
+	cursor: pointer;
+}
+.tab_menu .tab_menu_item:hover,.tab_menu .current{
+	color: #FFFFFF;
+	background-color: #ff8800;
+	border-radius: 2px;
+}
+.moreHotel{
+	padding-right: 8px;
+	color: #2d4b5f;
+	font: 12px/22px "宋体";
+	height: 22px;
+}
+.moreHotel:hover{	
+	text-decoration: underline;
+}
+.flight_flagShip .flight_result{
+	padding-top: 14px;
+}
+.flight_flagShip .flight_result .each_resultBlock{
+	width: 275px;
+	border-right: 1px solid #dedede;
+	margin-right: 8px;
+	line-height: 36px;
+}
+.flight_flagShip .each_resultBlock .eachResult_info{
+	height: 36px;
+	margin-bottom: 12px;
+}
+.flight_flagShip .each_resultBlock .eachResult_info a{
+	display: block;
+	color: #000000;
+}
+.flight_flagShip .eachResult_info .startCity_arriveCity{
+	width: 83px;
+}
+.flight_flagShip .eachResult_info .date{
+	width: 66px;
+	color: #808080;
+}
+.flight_flagShip .eachResult_info .salePrice{
+	width: 70px;
+	text-align: right;
+	font-family: Arial;
+	font-size: 22px;
+	color: #f80;
+	vertical-align: -2px;
+}
+.flight_flagShip .eachResult_info .discount{
+	width: 39px;
+	text-align: right;
+	color: #808080;
+}
+.flight_flagShip .each_resultBlock .eachResult_info:hover{
+	height: 36px;
+	background-color: #ECECEC;
+}
+/* 航空旗舰店 结束 */
+
+/* 国内30日低价曲线 开始 */
+#main .lowPrice_trendy{
+	background-color: #fff;
+	height: 375px;
+	padding-top: 30px;
+}
+.lowPrice_trendy .trendyTop{
+	height: 30px;
+	line-height: 30px;
+	color: #13334d;
+	font-family: "宋体";
+}
+.trendyTop .trendy_title{
+	color: #355976;
+	padding-left: 30px;
+	margin-right: 49px;
+	font: normal 20px/30px "微软雅黑";
+}
+.queryForm input{
+	padding-left: 4px;
+	color: #000000;
+	width: 140px;
+	height: 28px;
+	border: 1px solid #c7d1e4;
+	border-radius: 2px;
+	margin-right: 19px;
+}
+.queryForm .btn_submit{
+	width: 68px;
+	background-color: #63b8f0;
+	color: #ffffff;
+	border: none;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 3px;
+}
+.lowPrice_trendy .trendyBottom{
+	padding-top: 30px;
+	padding-left: 60px;
+}
+/* 国内30日低价曲线 结束 */
+/*更改公共样式*/
+#header .telephone{
+	right: 0;
+}
+#footer .footer_desc .each_desc{
+	width: 183px;
+}
+#footer .footer_desc .scanning{
+	width: 347px;
+	height: 81px;
+	background-size: contain;
+}

@@ -1,0 +1,46 @@
+/* 兼容性样式表 */
+li{
+	vertical-align: top;
+}
+body{
+	font: 12px arial "宋体";
+}
+/* 图标_每个模块头部的兼容--最小高度19px的问题 */
+.top_bar .ico_home, .item_head .head_bg, .topMenu_nav .ico_nav{
+	*overflow: hidden;
+}
+/* 浮动元素有margin时，双边距问题 */
+.header_nav .nav_item{
+	display: inline;
+}
+/*  */
+.sub_content .selectType input{
+	vertical-align: 0px;
+	overflow: hidden;
+}
+
+.form .single_ticket dl{
+	display: inline;
+}
+.form .single_ticket input{
+	height: 23px;
+	padding-top: 5px;
+}
+.bottom .each_bottom{
+	display: inline;
+}
+/*#content .item_content .parts3_tab{
+	overflow: hidden;
+}*/
+.eachTop .eachTopContent{
+	display: inline;
+}
+
+.hotel .content_top .eachTop a{
+	overflow: hidden;
+}
+
+/* hotel */
+.tab_content .item_eachContent,.inland_hotel .item_eachContent, .foreign_hotel .item_eachContent{
+	*margin-top: 0;
+}
