@@ -1,0 +1,66 @@
+<html>
+<head>
+<meta charset="utf-8"/>
+<style>
+* {
+	padding:0;
+	margin:0;
+	border:none;
+}
+div {
+	position:absolute;
+}
+#wrap div,#view  div{
+	height:10px;
+	width:10px;
+	background:
+-webkit-gradient(linear, 90% 43%, 62% 0%, from(#833BFF), to(#3519C2));
+	*background:blue;
+	border-radius:5px;
+	box-shadow:1px 1px 2px inner #fff
+}
+#wrap {
+	border:1px solid red;
+	height:390px;
+	width:290px;
+	position: relative;
+	margin:10px auto;
+	overflow:hidden
+}
+#view {
+	width:50px;
+	height:50px;
+	left:70%;
+	top:10px;
+}
+#value {
+	background:#39C;
+	color:#fff;
+	text-align:center;
+	line-height:50px;
+	font-size:50px;
+	width:200px;
+	height:50px;
+	left:70%;
+	top:200px;
+}
+#stop{
+	left:70%;
+	top:300px;
+	font-size:24px;
+	font-weight:bold;
+	cursor:pointer;
+	}
+</style>
+<script src="jquery.1.8.0.js"></script>
+<script src="game.js"></script>
+</head>
+<body>
+<div id="wrap"></div>
+<div id="view"></div>
+<div id="value"></div>
+<div id="stop">暂停</div>
+<div id="val2">↑  ↓ ←   →   空格键</div>
+</body>
+</html>
+
