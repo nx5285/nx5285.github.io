@@ -30,6 +30,8 @@
 <br>
 <a href="https://nx5285.github.io/recruitment-information/list.html">PC:这个项目是模拟公司招聘信息的页面</a><br>
 <br>
+<a href="https://nx5285.github.io/weiyun-simulation/index.html">PC:这个项目是通过原生js模拟的腾讯微云的样板，能够实现添加、删除、重命名等部分功能</a><br>
+<br>
 <a href="https://nx5285.github.io/163email-logopage/html/163page.html">PC:这个项目是网易163邮箱登录的静态页面模拟</a><br>
 <br>
 <a href="https://nx5285.github.io/qqmusic-homepage/html/QQmusic.html">PC:这个项目是QQ音乐的静态页面模拟</a><br>
