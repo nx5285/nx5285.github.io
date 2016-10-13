@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>棍子英雄-游戏</title>
+		<script src="js/jquery-3.1.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.rotate-0.3.0/jquery.rotate.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(document).ready(function () {
+				//平台、设备和操作系统
+				var system = {mobile: false,android: false,iPad: false};
+				var cssHref = jsSrc = '';
+				//检测平台
+				var u = navigator.userAgent;
+				system.mobile = !!u.match(/AppleWebKit.*Mobile.*/); //是否为移动终端 
+				system.android = u.indexOf('Android') > -1 || u.indexOf('Linux') > -1; //android终端或者uc浏览器 
+				system.iPad = u.indexOf('iPad') > -1; //是否iPad 
+				//跳转语句
+				if (system.mobile || system.android || system.iPad) {
+					//手机等
+					cssHref = "css/stickHero_m.css";
+					jsSrc = "js/stickHero_m.js";
+				} else {
+					//PC
+					cssHref = "css/stickHero.css";
+					jsSrc = "js/stickHero.js";
+					// document.getElementsByTagName("html")[0].style.fontSize = "16px";
+				}
+				var link = $('<link href='+cssHref+' rel="stylesheet"/>');
+				var script = document.createElement('script');
+				script.src = jsSrc;
+				script.charset = "utf-8";
+				$('head').append(link)
+				$('head').append(script)
+			});
+
+		</script>
+		
+	</head>
+	<body>
+		<section>
+			<div id="scoreBox"></div>
+			<div id="start">START</div>
+			<div id="loseTips">对不起，你失败了，请重新开始</div>
+			<div id="scores"></div>
+			<div id="matchManBox" class="matchManBox">
+				<img id="matchMan" src="img/1.jpg"/>
+				<!--<img id="matchMan" src="img/2.gif"/>-->
+			</div>
+			<div id="pierBox">
+				<div class="pier" id="111"></div>
+				<div class="pier" id="222"></div>
+				<div class="pier" id="333"></div>
+			</div>
+			<div id="stick"></div>
+		</section>
+	</body>
+</html>
