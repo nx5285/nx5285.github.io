@@ -38,5 +38,7 @@
 <br>
 <a href="https://nx5285.github.io/tmall-homepage/tmall.html">PC:这个项目是通过原生js模拟的天猫首页部分效果</a><br>
 <br>
-<a href="https://nx5285.github.io/core-Ball/coreBall.html">PC:这个项目是一个小游戏的demo《小游戏：见缝插针》的游戏页面</a><br>
+<a href="https://nx5285.github.io/core-Ball/coreBall.html">PC:这个项目是一个小游戏的demo《小游戏：核心球》的游戏页面</a><br>
+<br>
+<a href="https://nx5285.github.io/stick-hero/stickHero.html">PC:这个项目是一个小游戏的demo《小游戏：火柴人》的游戏页面</a><br>
 <br>
