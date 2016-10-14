@@ -19,11 +19,6 @@
 <br>
 <a href="https://nx5285.github.io/jingdongPC/3detail/detail.html">PC:这个项目是京东PC端静态页面宝贝详情页模拟</a><br>
 <br>
-<a href="https://nx5285.github.io/EliminateGame/EliminateGame.html">PC:这个项目是一个小游戏的demo《小游戏：消除表情》的游戏页面
-</a><br>
-<br>
-<a href="https://nx5285.github.io/diamonds-game/game.html">PC:这个项目是一个用jquery框架模拟的小游戏的demo《小游戏：简易版俄罗斯方块》的游戏页面</a><br>
-<br>
 <a href="https://nx5285.github.io/UEhtml-Responsive/UEhtml.html">PC:这个项目是UEhtml静态页面响应式模拟</a><br>
 <br>
 <a href="https://nx5285.github.io/Designcrowd-Responsive/DesigncrowdWeb.html">PC:这个项目是Designcrowd静态页面响应式模拟</a><br>
@@ -41,4 +36,9 @@
 <a href="https://nx5285.github.io/core-Ball/coreBall.html">PC:这个项目是一个小游戏的demo《小游戏：核心球》的游戏页面</a><br>
 <br>
 <a href="https://nx5285.github.io/stick-hero/stickHero.html">PC:这个项目是一个小游戏的demo《小游戏：火柴人》的游戏页面</a><br>
+<br>
+<a href="https://nx5285.github.io/EliminateGame/EliminateGame.html">PC:这个项目是一个小游戏的demo《小游戏：消除表情》的游戏页面
+</a><br>
+<br>
+<a href="https://nx5285.github.io/diamonds-game/game.html">PC:这个项目是一个用jquery框架模拟的小游戏的demo《小游戏：简易版俄罗斯方块》的游戏页面</a><br>
 <br>
